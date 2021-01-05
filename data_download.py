@@ -9,6 +9,8 @@ import shutil
 from collections import Counter
 
 from satplots_logging import get_logger
+from basics import SpaceVector
+from conversions import norad2prn
 
 class TLE_element:
     def __init__(self,line1,line2,norad_id):
@@ -65,27 +67,69 @@ class Celestrak:
         tmp_file.replace(output_file)
 
     @classmethod
-    def get_tles(cls,date,group):
+    def get_tles(cls,date,group=None):
         if isinstance(date,str):
             date = datetime.strptime(date,"%Y/%m/%d")
         date_str = datetime.strftime(date,"%Y/%m/%d")
-
         date_str = datetime.strftime(date,"%Y%m%d")
-        file_dir = Path(cls.ARCHIVE_PATH) / str(date.year) / str(date.month) / str(date.day) / f"TLE_{date_str}_{group}.txt"
 
-        if not file_dir.exists() or file_dir.stat().st_size==0:
-            return []
-
-        with file_dir.open('r') as f:
-            lines = f.readlines()
+        if not group:
+            groups = ["galileo","gps-ops","glo-ops","beidou"]
+        else:
+            groups = [group]
         
         result = []
-        for i in range(0,len(lines),3):
-            new_tle = TLE_element(lines[i+1],lines[i+2],lines[i].replace('\n','').strip())
-            result.append(new_tle)
+        for group in groups:
+            file_dir = Path(cls.ARCHIVE_PATH) / str(date.year) / str(date.month) / str(date.day) / f"TLE_{date_str}_{group}.txt"
+
+            if not file_dir.exists() or file_dir.stat().st_size==0:
+                #raise Exception("TLE file does not exist or is empty")
+                continue
+
+            with file_dir.open('r') as f:
+                lines = f.readlines()
+            
+            for i in range(0,len(lines),3):
+                new_tle = TLE_element(lines[i+1],lines[i+2],lines[i].replace('\n','').strip())
+                result.append(new_tle)
 
         return result
         
+    @classmethod
+    def get_norad_ids(cls,date,group=None):
+        result = []
+        tles = cls.get_tles(date,group)
+        for tle in tles:
+            if norad2prn(tle.norad_id):
+                result.append(tle.norad_id)
+
+        return result
+
+    @classmethod
+    def get_prns(cls):
+        filepath = Path("./tmp/prns.txt")
+        if filepath.exists():
+            with filepath.open("r") as f:
+                lines = f.readlines()
+            lines = [line.strip() for line in lines]
+            return lines
+        
+        yesterday = datetime.now() - timedelta(days=1)
+        yesterday_str = datetime.strftime(yesterday,"%Y/%m/%d")
+        norad_ids = cls.get_norad_ids(yesterday_str)
+        prns = []
+        for norad_id in norad_ids:
+            prn = norad2prn(norad_id)
+            if prn:
+                prns.append(prn)
+
+        filepath.touch(exist_ok=True)
+        with filepath.open("w") as f:
+            for prn in prns:
+                f.write(prn+"\n")
+
+        return prns
+
     def download_all_csv(self):
         self.logger.info("Downloading all celestrak files")
         groups = self.config["CELESTRAK"]["groups"].split(",")
@@ -130,15 +174,36 @@ class Celestrak:
 class IGS:
     @classmethod
     def get_stations_df(cls):
-        req = requests.get("https://files.igs.org/pub/station/general/IGSNetwork.csv")
         tmp_file = Path("./tmp/IGS_stations.csv")
-        tmp_file.write_text(req.text)
+        if not tmp_file.exists():
+            req = requests.get("https://files.igs.org/pub/station/general/IGSNetwork.csv")
+            tmp_file.write_text(req.text)
         df = pd.read_csv(tmp_file)
         df.rename(columns={"#stn":"StationFull"},inplace=True)
         df["Station"] = df.StationFull.apply(lambda x : x[:4])
 
         return df
 
+    @classmethod
+    def get_IGS_stations_df_full(cls):
+        df = cls.get_stations_df()
+        Xs = list(df.X)
+        Ys = list(df.Y)
+        Zs = list(df.Z)
+        lats = []
+        lons = []
+        for i in range(len(Xs)):
+            new_pos = SpaceVector(Xs[i],Ys[i],Zs[i],skip_llh=False)
+            lats.append(new_pos.lat)
+            lons.append(new_pos.lon)
 
+        new_df = pd.DataFrame(zip(lats,lons),columns=["lat","lon"])
+        result_df = pd.concat([df,new_df],axis=1)
+
+        return result_df
+
+    @classmethod
+    def get_IGS_station_list(cls):
+        return list(pd.unique(cls.get_stations_df().Station))
 
 

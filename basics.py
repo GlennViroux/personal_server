@@ -5,12 +5,20 @@ import numpy as np
 from projections import ecef2latlonheight,latlonheight2ecef
 
 class SpaceVector:
-    def __init__(self,x,y,z,lat=None,lon=None):
-        self.x = round(x,3)
-        self.y = round(y,3)
-        self.z = round(z,3)
-        self.lat = lat
-        self.lon = lon
+    def __init__(self,x,y,z,lat=None,lon=None,height=None,skip_llh=True):
+        self.x = x
+        self.y = y
+        self.z = z
+
+        if (not lat or not lon or not height) and not skip_llh:
+            self.lat = None
+            self.lon = None
+            self.height = None
+            self.lat,self.lon,self.height = self.to_llh()
+        else:
+            self.lat = lat
+            self.lon = lon
+            self.height = height
 
     def __add__(self,other):
         x_add = self.x + other.x
@@ -43,14 +51,14 @@ class SpaceVector:
         return self.x*other.x+self.y*other.y+self.z*other.z
 
     def to_llh(self):
-        if self.lat and self.lon:
-            return (self.lat,self.lon,self.norm())
+        if self.lat and self.lon and self.height:
+            return (self.lat,self.lon,self.height)
         else:
             return ecef2latlonheight(self.x,self.y,self.z)
 
     @classmethod
     def from_llh(cls,lat,lon,height):
         x,y,z = latlonheight2ecef(lat,lon,height)
-        return SpaceVector(x,y,z)
+        return SpaceVector(x,y,z,lat,lon,height)
 
     
