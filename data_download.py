@@ -20,7 +20,6 @@ class TLE_element:
         elems1 = line1.split()
         self.epoch = datetime(int("20"+elems1[3][:2]),1,1) + timedelta(days=float(elems1[3][2:]))
 
-
 class Celestrak:
     ARCHIVE_PATH = "./downloads/celestrak"
     def __init__(self,config_file="./config/download_config.ini"):
@@ -98,10 +97,15 @@ class Celestrak:
     @classmethod
     def get_norad_ids(cls,date,group=None):
         result = []
-        tles = cls.get_tles(date,group)
-        for tle in tles:
-            if norad2prn(tle.norad_id):
-                result.append(tle.norad_id)
+        if isinstance(date,str):
+            date = datetime.strptime(date,"%Y/%m/%d-%H:%M:%S")
+        indexes = [-2,-1,0,1,2]
+        dates = [date + timedelta(days=i) for i in indexes]
+        for date in dates:
+            tles = cls.get_tles(date,group)
+            for tle in tles:
+                if norad2prn(tle.norad_id):
+                    result.append(tle.norad_id)
 
         return result
 

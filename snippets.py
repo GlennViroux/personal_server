@@ -64,7 +64,7 @@ def df2geojsonLineString(df:pd.DataFrame,basepath):
         coordinates = []
         add_coordinates = lambda x: coordinates.append([x["lon"],x["lat"]])
         df[df.prn==prn].apply(add_coordinates,axis=1)
-        
+
         features = [geojson.Feature(
             geometry=geojson.LineString(coordinates=coordinates),
             properties={"prn":prn}
@@ -77,7 +77,6 @@ def df2geojsonLineString(df:pd.DataFrame,basepath):
         output = basepath / filename
         with output.open("w") as f:
             geojson.dump(geojson.FeatureCollection(features),f,sort_keys=True,ensure_ascii=False)
-
 
 def df2timeseriesdata(df:pd.DataFrame,basepath):
 
@@ -102,5 +101,21 @@ def df2timeseriesdata(df:pd.DataFrame,basepath):
         with output.open("w") as f:
             json.dump(data,f)
 
+def check_output(product,date,sat=None):
+    '''
+    Check if output exists for the provided product, date and 
+    satellite (if applicable).
+    '''
+    year = str(date.year)
+    month = str(date.month).zfill(2)
+    day = str(date.day).zfill(2)
+    filepath = Path(f"./output/{year}/{month}/{day}/{product}")
+    if sat:
+        filepath = filepath / f"{sat}.json"
+    else:
+        filepath = filepath / f"{product}.json"
 
+    if filepath.exists() and filepath.stat().st_size>0:
+        return True
+    return False
 

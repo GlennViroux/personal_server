@@ -3,6 +3,37 @@ Useful conversions
 '''
 import requests
 import re
+from pathlib import Path
+from datetime import datetime,timedelta
+
+class GlonassInfo:
+    @classmethod
+    def download_cus_message(cls):
+        yesterday = datetime.now() - timedelta(days=1)
+        yesterday_date = yesterday.date()
+        year = yesterday_date.year
+        month = str(yesterday_date.month).zfill(2)
+        day = str(yesterday_date.day).zfill(2)
+        basepath = Path(f"./output/{year}/{month}/{day}/glonass_cus")
+        basepath.mkdir(parents=True,exist_ok=True)
+        filepath = basepath / f"CUSMessage_{year}{month}{day}.txt"
+        req = requests.get("https://www.glonass-iac.ru/en/CUSGLONASS/getCUSMessage.php")
+        with filepath.open("wb") as f:
+            f.write(req.content)
+
+    @classmethod
+    def get_cus_msg(cls):
+        yesterday = datetime.now() - timedelta(days=1)
+        yesterday_date = yesterday.date()
+        year = yesterday_date.year
+        month = str(yesterday_date.month).zfill(2)
+        day = str(yesterday_date.day).zfill(2)
+        filepath = Path(f"./output/{year}/{month}/{day}/glonass_cus/CUSMessage_{year}{month}{day}.txt")
+        result = []
+        if filepath.exists():
+            with filepath.open("r") as f:
+                result = f.readlines()
+        return result
 
 BEIDOU_EXTRA = {
     "BEIDOU-2 G8":"C01",
@@ -47,9 +78,12 @@ def cosmos2prn(input_number):
     pattern = f"^\\|  {n}{n}{n}  \\| {n}{n}{n}{n} \\| {n}/{n}{n} \\|  .{n}  \\| {date} \\| {date} \\| .* \\| .* \\|.*"
 
     result = {}
-    req = requests.get("https://www.glonass-iac.ru/en/CUSGLONASS/getCUSMessage.php")
-    lines = req.text.split('\n')
-    for line in lines:
+    glo_msg_lines = GlonassInfo.get_cus_msg()
+    if not glo_msg_lines:
+        print(f"GLENNY glonass cus message not found!")
+        return False
+    
+    for line in glo_msg_lines:
         if re.match(pattern,line):
             elems = line.split('|')
             cosmos_number = elems[2].strip()

@@ -20,6 +20,8 @@ from satplots_logging import get_logger
 from grid import Grid
 from projections import ecef2latlonheight,latlonheight2ecef
 from conversions import norad2prn
+from snippets import df2geojsonLineString,df2geojsonSatPoints,df2geojsonStationPoints,check_output
+
 
 EARTH_FLATTE_GRS80 = 1.0/298.257222101
 
@@ -73,6 +75,12 @@ class Geometry:
         self.logger.info("Loading IGS stations")
         self.igs_stations_df = IGS.get_IGS_stations_df_full()
 
+        stations = [stat.upper() for stat in self.config["general"]["stations"].split(",")]
+        if len(stations)==1 and not stations[0]:
+            stations = IGS.get_IGS_station_list()
+
+        self.igs_stations_df = self.igs_stations_df[self.igs_stations_df.Station.isin(stations)]
+
     def get_closest_tle(self,norad_id,epoch):
         '''
         Return the closest (epoch-wise) tle that is loaded.
@@ -93,7 +101,7 @@ class Geometry:
         return df.iloc[0]
       
     def get_sat_pos(self,satellite,epoch):
-        self.logger.info(f"Getting position {epoch}")
+        self.logger.debug(f"Getting position {epoch}")
         if isinstance(epoch,str):
             epoch = datetime.datetime.strptime(epoch,"%Y/%m/%d-%H:%M:%S")
 
@@ -158,7 +166,6 @@ class Geometry:
         station_normal.z /= ((1.0 - EARTH_FLATTE_GRS80) * (1.0 - EARTH_FLATTE_GRS80))
         aux_norm = station_normal.norm()
         glenny = station_normal/aux_norm
-        #glenny = station_pos/station_pos.norm()
         aux = station_to_sat.dot(glenny)
 
         if distance<1e-10:
@@ -170,11 +177,10 @@ class Geometry:
         return elev 
 
     def get_stations_in_view(self,sat_pos):
-        self.logger.info(f"Getting stations in view for satellite at {sat_pos}")
+        self.logger.debug(f"Getting stations in view for satellite at {sat_pos}")
         elev_mask = float(self.config["general"]["elevation_mask"])
-        stations = [stat.upper() for stat in self.config["general"]["stations"].split(",")]
-        if len(stations)==1 and not stations[0]:
-            stations = IGS.get_IGS_station_list()
+        stations = self.igs_stations_df.Station
+
         stations_in_view = []
         for station in stations:
             stat_pos = self.get_station_pos(station)
@@ -192,6 +198,7 @@ class Geometry:
         number_stats_in_view = []
         norad_ids = []
         prns = []
+        self.logger.info(f"Calculating stations in view for {norad_id}...")
         for _,row in sat_pos_df.iterrows():
             sat_pos = row.pos
             stats_in_view = self.get_stations_in_view(sat_pos)
@@ -215,12 +222,21 @@ class Geometry:
         else:
             norad_ids = Celestrak.get_norad_ids(start.date())
 
-        dfs = []
+        basepath = Path("./output") / str(start.date().year) / str(start.date().month).zfill(2) / str(start.date().day).zfill(2)
+        basepath.mkdir(parents=True,exist_ok=True)
         for norad_id in norad_ids:
-            dfs.append(self.get_stations_in_view_sat_track(norad_id,start,end))
+            sat = norad2prn(norad_id)
+            sat_points_check = check_output("sat_points",start.date(),sat)
+            sat_track_check = check_output("sat_track",start.date(),sat)
+            stations_check = check_output("stations",start.date())
 
-        df_result = pd.concat(dfs,axis=0)
-        return df_result
+            if not sat or (sat_points_check and sat_track_check and stations_check):
+                self.logger.info(f"Skipping norad id {norad_id} as results are already present.")
+                continue
+
+            df = self.get_stations_in_view_sat_track(norad_id,start,end)
+            df2geojsonSatPoints(df,basepath / "sat_points")
+            df2geojsonLineString(df,basepath / "sat_track")
 
     def plot_elevations(self,sat_pos):
         df_elev = self.calculate_elevations(sat_pos)
