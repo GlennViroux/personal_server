@@ -1,4 +1,7 @@
 
+import os
+from sendgrid import SendGridAPIClient
+from sendgrid.helpers.mail import Mail
 import pandas as pd 
 import json
 import geojson
@@ -119,3 +122,23 @@ def check_output(product,date,sat=None):
         return True
     return False
 
+def send_mail(mail_from,name,text):
+    '''
+    Send a mail using the Sendgrid API
+    '''
+    message = Mail(
+        from_email='portfolioglennviroux@gmail.com',
+        to_emails='glenn.viroux@gmail.com',
+        subject=f"Mail from {name} - {mail_from}",
+        html_content=f"<p>{text}</p>"
+    )
+
+    try:
+        print(os.environ.get('SENDGRID_API_KEY'))
+        sg = SendGridAPIClient(os.environ.get('SENDGRID_API_KEY'))
+        response = sg.send(message)
+        print(response.status_code)
+        print(response.body)
+        print(response.headers)
+    except Exception as e:
+        print(e)

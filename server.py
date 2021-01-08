@@ -7,6 +7,7 @@ from flask_cors import CORS
 
 from data_download import Celestrak,IGS
 from conversions import norad2prn
+from snippets import send_mail
 
 app = flask.Flask(__name__)
 app.config["DEBUG"] = True
@@ -82,6 +83,14 @@ def check_data():
         }
         return jsonify(result)
 
+@app.route('/sendmail',methods=["POST"])
+def send_email():
+    mail_json = request.get_json(force=True)
+    fullName = mail_json['fullName']
+    fromMail = mail_json['email']
+    msg = mail_json['message']
+    send_mail(fromMail,fullName,msg)
+    return jsonify({"message":"ok!"})
 
 
 @app.route('/data/<string:data_id>/<string:prn>',methods=["GET"])
