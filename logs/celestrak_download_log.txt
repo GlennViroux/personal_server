@@ -23133,3 +23133,111 @@
 2021-01-09 17:12:45,801 - INFO - Getting all positions for GPS BIIF-7  (PRN 09) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
 2021-01-09 17:12:55,665 - INFO - Positions calculated!
 2021-01-09 17:12:55,668 - INFO - Calculating stations in view for GPS BIIF-7  (PRN 09)...
+2021-01-09 17:17:48,821 - INFO - Getting stations in view along the track for GPS BIIF-8  (PRN 03) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 17:17:48,822 - INFO - Getting all positions for GPS BIIF-8  (PRN 03) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 17:17:57,480 - INFO - Positions calculated!
+2021-01-09 17:17:57,480 - INFO - Calculating stations in view for GPS BIIF-8  (PRN 03)...
+2021-01-09 17:22:45,582 - INFO - Getting stations in view along the track for GPS BIIF-9  (PRN 26) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 17:22:45,584 - INFO - Getting all positions for GPS BIIF-9  (PRN 26) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 17:22:53,776 - INFO - Positions calculated!
+2021-01-09 17:22:53,778 - INFO - Calculating stations in view for GPS BIIF-9  (PRN 26)...
+2021-01-09 17:26:29,754 - INFO - Getting stations in view along the track for GPS BIIF-10 (PRN 08) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 17:26:29,754 - INFO - Getting all positions for GPS BIIF-10 (PRN 08) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 17:26:37,756 - INFO - Positions calculated!
+2021-01-09 17:26:37,759 - INFO - Calculating stations in view for GPS BIIF-10 (PRN 08)...
+2021-01-09 17:30:57,339 - INFO - Getting stations in view along the track for GPS BIIF-11 (PRN 10) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 17:30:57,349 - INFO - Getting all positions for GPS BIIF-11 (PRN 10) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 17:31:15,377 - INFO - Positions calculated!
+2021-01-09 17:31:15,379 - INFO - Calculating stations in view for GPS BIIF-11 (PRN 10)...
+2021-01-09 17:35:33,831 - INFO - Getting stations in view along the track for GPS BIIF-12 (PRN 32) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 17:35:33,833 - INFO - Getting all positions for GPS BIIF-12 (PRN 32) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 17:35:42,175 - INFO - Positions calculated!
+2021-01-09 17:35:42,176 - INFO - Calculating stations in view for GPS BIIF-12 (PRN 32)...
+2021-01-09 17:39:10,713 - INFO - Getting stations in view along the track for GPS BIII-1  (PRN 04) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 17:39:10,715 - INFO - Getting all positions for GPS BIII-1  (PRN 04) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 17:39:18,745 - INFO - Positions calculated!
+2021-01-09 17:39:18,745 - INFO - Calculating stations in view for GPS BIII-1  (PRN 04)...
+2021-01-09 17:43:14,039 - INFO - Getting stations in view along the track for GPS BIII-2  (PRN 18) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 17:43:14,040 - INFO - Getting all positions for GPS BIII-2  (PRN 18) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 17:43:22,304 - INFO - Positions calculated!
+2021-01-09 17:43:22,304 - INFO - Calculating stations in view for GPS BIII-2  (PRN 18)...
+2021-01-09 17:46:46,661 - INFO - Getting stations in view along the track for GPS BIII-3  (PRN 23) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 17:46:46,661 - INFO - Getting all positions for GPS BIII-3  (PRN 23) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 17:46:54,578 - INFO - Positions calculated!
+2021-01-09 17:46:54,579 - INFO - Calculating stations in view for GPS BIII-3  (PRN 23)...
+2021-01-09 17:50:15,333 - INFO - Getting stations in view along the track for COSMOS 2433 (720) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 17:50:15,334 - INFO - Getting all positions for COSMOS 2433 (720) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 17:50:23,255 - INFO - Positions calculated!
+2021-01-09 17:50:23,255 - INFO - Calculating stations in view for COSMOS 2433 (720)...
+2021-01-09 17:53:49,118 - INFO - Getting stations in view along the track for COSMOS 2432 (719) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 17:53:49,118 - INFO - Getting all positions for COSMOS 2432 (719) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 17:53:56,654 - INFO - Positions calculated!
+2021-01-09 17:53:56,655 - INFO - Calculating stations in view for COSMOS 2432 (719)...
+2021-01-09 17:56:58,997 - INFO - Getting stations in view along the track for COSMOS 2434 (721) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 17:56:58,997 - INFO - Getting all positions for COSMOS 2434 (721) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 17:57:06,579 - INFO - Positions calculated!
+2021-01-09 17:57:06,580 - INFO - Calculating stations in view for COSMOS 2434 (721)...
+2021-01-09 18:00:42,730 - INFO - Getting stations in view along the track for COSMOS 2436 (723) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 18:00:42,731 - INFO - Getting all positions for COSMOS 2436 (723) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 18:00:50,439 - INFO - Positions calculated!
+2021-01-09 18:00:50,439 - INFO - Calculating stations in view for COSMOS 2436 (723)...
+2021-01-09 18:03:55,138 - INFO - Getting stations in view along the track for COSMOS 2456 (730) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 18:03:55,139 - INFO - Getting all positions for COSMOS 2456 (730) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 18:04:02,835 - INFO - Positions calculated!
+2021-01-09 18:04:02,836 - INFO - Calculating stations in view for COSMOS 2456 (730)...
+2021-01-09 18:07:06,698 - INFO - Getting stations in view along the track for COSMOS 2457 (733) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 18:07:06,699 - INFO - Getting all positions for COSMOS 2457 (733) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 18:07:14,403 - INFO - Positions calculated!
+2021-01-09 18:07:14,403 - INFO - Calculating stations in view for COSMOS 2457 (733)...
+2021-01-09 18:10:18,165 - INFO - Getting stations in view along the track for COSMOS 2461 (735) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 18:10:18,165 - INFO - Getting all positions for COSMOS 2461 (735) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 18:10:25,861 - INFO - Positions calculated!
+2021-01-09 18:10:25,861 - INFO - Calculating stations in view for COSMOS 2461 (735)...
+2021-01-09 18:13:29,642 - INFO - Getting stations in view along the track for COSMOS 2460 (732) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 18:13:29,642 - INFO - Getting all positions for COSMOS 2460 (732) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 18:13:37,331 - INFO - Positions calculated!
+2021-01-09 18:13:37,331 - INFO - Calculating stations in view for COSMOS 2460 (732)...
+2021-01-09 18:16:40,242 - INFO - Getting stations in view along the track for COSMOS 2464 (736) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 18:16:40,242 - INFO - Getting all positions for COSMOS 2464 (736) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 18:16:47,893 - INFO - Positions calculated!
+2021-01-09 18:16:47,893 - INFO - Calculating stations in view for COSMOS 2464 (736)...
+2021-01-09 18:19:53,157 - INFO - Getting stations in view along the track for COSMOS 2476 (744) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 18:19:53,157 - INFO - Getting all positions for COSMOS 2476 (744) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 18:20:00,802 - INFO - Positions calculated!
+2021-01-09 18:20:00,803 - INFO - Calculating stations in view for COSMOS 2476 (744)...
+2021-01-09 18:23:04,259 - INFO - Getting stations in view along the track for COSMOS 2477 (745) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 18:23:04,260 - INFO - Getting all positions for COSMOS 2477 (745) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 18:23:12,178 - INFO - Positions calculated!
+2021-01-09 18:23:12,178 - INFO - Calculating stations in view for COSMOS 2477 (745)...
+2021-01-09 18:26:15,122 - INFO - Getting stations in view along the track for COSMOS 2475 (743) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 18:26:15,122 - INFO - Getting all positions for COSMOS 2475 (743) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 18:26:22,801 - INFO - Positions calculated!
+2021-01-09 18:26:22,801 - INFO - Calculating stations in view for COSMOS 2475 (743)...
+2021-01-09 18:29:26,220 - INFO - Getting stations in view along the track for COSMOS 2485 (747) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 18:29:26,221 - INFO - Getting all positions for COSMOS 2485 (747) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 18:29:33,902 - INFO - Positions calculated!
+2021-01-09 18:29:33,903 - INFO - Calculating stations in view for COSMOS 2485 (747)...
+2021-01-09 18:32:37,044 - INFO - Getting stations in view along the track for COSMOS 2492 (754) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 18:32:37,044 - INFO - Getting all positions for COSMOS 2492 (754) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 18:32:44,743 - INFO - Positions calculated!
+2021-01-09 18:32:44,744 - INFO - Calculating stations in view for COSMOS 2492 (754)...
+2021-01-09 18:35:48,413 - INFO - Getting stations in view along the track for COSMOS 2500 (755) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 18:35:48,413 - INFO - Getting all positions for COSMOS 2500 (755) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 18:35:56,045 - INFO - Positions calculated!
+2021-01-09 18:35:56,045 - INFO - Calculating stations in view for COSMOS 2500 (755)...
+2021-01-09 18:38:58,845 - INFO - Getting stations in view along the track for COSMOS 2501 (702K) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 18:38:58,845 - INFO - Getting all positions for COSMOS 2501 (702K) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 18:39:06,442 - INFO - Positions calculated!
+2021-01-09 18:39:06,443 - INFO - Calculating stations in view for COSMOS 2501 (702K)...
+2021-01-09 18:42:09,750 - INFO - Getting stations in view along the track for COSMOS 2514 (751) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 18:42:09,751 - INFO - Getting all positions for COSMOS 2514 (751) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 18:42:17,344 - INFO - Positions calculated!
+2021-01-09 18:42:17,344 - INFO - Calculating stations in view for COSMOS 2514 (751)...
+2021-01-09 18:45:30,937 - INFO - Getting stations in view along the track for COSMOS 2516 (753) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 18:45:30,938 - INFO - Getting all positions for COSMOS 2516 (753) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 18:45:42,800 - INFO - Positions calculated!
+2021-01-09 18:45:42,801 - INFO - Calculating stations in view for COSMOS 2516 (753)...
+2021-01-09 18:48:53,566 - INFO - Getting stations in view along the track for COSMOS 2522 (752) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 18:48:53,566 - INFO - Getting all positions for COSMOS 2522 (752) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 18:49:01,463 - INFO - Positions calculated!
+2021-01-09 18:49:01,464 - INFO - Calculating stations in view for COSMOS 2522 (752)...
