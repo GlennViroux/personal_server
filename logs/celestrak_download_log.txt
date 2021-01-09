@@ -23241,3 +23241,7 @@
 2021-01-09 18:48:53,566 - INFO - Getting all positions for COSMOS 2522 (752) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
 2021-01-09 18:49:01,463 - INFO - Positions calculated!
 2021-01-09 18:49:01,464 - INFO - Calculating stations in view for COSMOS 2522 (752)...
+2021-01-09 18:52:20,010 - INFO - Getting stations in view along the track for COSMOS 2527 (756) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 18:52:20,010 - INFO - Getting all positions for COSMOS 2527 (756) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 18:52:27,986 - INFO - Positions calculated!
+2021-01-09 18:52:27,986 - INFO - Calculating stations in view for COSMOS 2527 (756)...
