@@ -83,7 +83,9 @@ class Celestrak:
 
             if not file_dir.exists() or file_dir.stat().st_size==0:
                 #raise Exception("TLE file does not exist or is empty")
-                continue
+                file_dir = Path(cls.ARCHIVE_PATH) / str(date.year) / str(date.month) / str(date.day) / f"{date_str}_{group}.txt"
+                if not file_dir.exists() or file_dir.stat().st_size==0:
+                    continue
 
             with file_dir.open('r') as f:
                 lines = f.readlines()

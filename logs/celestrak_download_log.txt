@@ -22082,3 +22082,1054 @@
 2021-01-08 22:24:48,001 - INFO - Loading IGS stations
 2021-01-08 22:24:59,907 - INFO - Loading TLEs from Celestrak
 2021-01-08 22:25:12,268 - INFO - Calculating results for all norad ids between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-08 22:28:07,445 - INFO - Loading IGS stations
+2021-01-08 22:28:19,372 - INFO - Loading TLEs from Celestrak
+2021-01-08 22:28:31,360 - INFO - Calculating results for all norad ids between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-08 22:33:12,579 - INFO - Loading IGS stations
+2021-01-08 22:33:26,405 - INFO - Loading TLEs from Celestrak
+2021-01-08 22:33:38,534 - INFO - Calculating results for all norad ids between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-08 22:33:38,544 - INFO - Getting stations in view along the track for GSAT0101 (PRN E11) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-08 22:33:38,544 - INFO - Getting all positions for GSAT0101 (PRN E11) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-08 22:33:46,694 - INFO - Positions calculated!
+2021-01-08 22:33:46,694 - INFO - Calculating stations in view for GSAT0101 (PRN E11)...
+2021-01-08 22:38:44,368 - INFO - Getting stations in view along the track for GSAT0102 (PRN E12) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-08 22:38:44,373 - INFO - Getting all positions for GSAT0102 (PRN E12) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-08 22:38:58,745 - INFO - Positions calculated!
+2021-01-08 22:38:58,748 - INFO - Calculating stations in view for GSAT0102 (PRN E12)...
+2021-01-08 22:42:17,562 - INFO - Getting stations in view along the track for GSAT0103 (PRN E19) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-08 22:42:17,563 - INFO - Getting all positions for GSAT0103 (PRN E19) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-08 22:42:25,947 - INFO - Positions calculated!
+2021-01-08 22:42:25,947 - INFO - Calculating stations in view for GSAT0103 (PRN E19)...
+2021-01-08 22:45:44,077 - INFO - Getting stations in view along the track for GSAT0104 (PRN E20) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-08 22:45:44,078 - INFO - Getting all positions for GSAT0104 (PRN E20) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-08 22:45:51,717 - INFO - Positions calculated!
+2021-01-08 22:45:51,718 - INFO - Calculating stations in view for GSAT0104 (PRN E20)...
+2021-01-08 22:49:28,168 - INFO - Getting stations in view along the track for GSAT0201 (PRN E18) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-08 22:49:28,169 - INFO - Getting all positions for GSAT0201 (PRN E18) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-08 22:49:37,259 - INFO - Positions calculated!
+2021-01-08 22:49:37,260 - INFO - Calculating stations in view for GSAT0201 (PRN E18)...
+2021-01-08 22:53:07,506 - INFO - Getting stations in view along the track for GSAT0202 (PRN E14) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-08 22:53:07,506 - INFO - Getting all positions for GSAT0202 (PRN E14) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-08 22:53:16,091 - INFO - Positions calculated!
+2021-01-08 22:53:16,092 - INFO - Calculating stations in view for GSAT0202 (PRN E14)...
+2021-01-08 22:57:12,139 - INFO - Getting stations in view along the track for GSAT0203 (PRN E26) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-08 22:57:12,141 - INFO - Getting all positions for GSAT0203 (PRN E26) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-08 22:57:21,529 - INFO - Positions calculated!
+2021-01-08 22:57:21,530 - INFO - Calculating stations in view for GSAT0203 (PRN E26)...
+2021-01-08 23:01:51,158 - INFO - Getting stations in view along the track for GSAT0204 (PRN E22) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-08 23:01:51,160 - INFO - Getting all positions for GSAT0204 (PRN E22) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-08 23:02:00,357 - INFO - Positions calculated!
+2021-01-08 23:02:00,357 - INFO - Calculating stations in view for GSAT0204 (PRN E22)...
+2021-01-08 23:06:04,239 - INFO - Getting stations in view along the track for GSAT0205 (PRN E24) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-08 23:06:04,241 - INFO - Getting all positions for GSAT0205 (PRN E24) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-08 23:06:11,937 - INFO - Positions calculated!
+2021-01-08 23:06:11,939 - INFO - Calculating stations in view for GSAT0205 (PRN E24)...
+2021-01-08 23:34:14,633 - INFO - Getting stations in view along the track for GSAT0206 (PRN E30) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-08 23:34:14,634 - INFO - Getting all positions for GSAT0206 (PRN E30) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-08 23:34:24,379 - INFO - Positions calculated!
+2021-01-08 23:34:24,382 - INFO - Calculating stations in view for GSAT0206 (PRN E30)...
+2021-01-08 23:37:32,834 - INFO - Getting stations in view along the track for GSAT0209 (PRN E09) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-08 23:37:32,835 - INFO - Getting all positions for GSAT0209 (PRN E09) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-08 23:37:40,473 - INFO - Positions calculated!
+2021-01-08 23:37:40,473 - INFO - Calculating stations in view for GSAT0209 (PRN E09)...
+2021-01-08 23:41:20,684 - INFO - Getting stations in view along the track for GSAT0208 (PRN E08) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-08 23:41:20,684 - INFO - Getting all positions for GSAT0208 (PRN E08) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-08 23:41:28,807 - INFO - Positions calculated!
+2021-01-08 23:41:28,807 - INFO - Calculating stations in view for GSAT0208 (PRN E08)...
+2021-01-08 23:44:54,732 - INFO - Getting stations in view along the track for GSAT0211 (PRN E02) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-08 23:44:54,732 - INFO - Getting all positions for GSAT0211 (PRN E02) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-08 23:45:02,846 - INFO - Positions calculated!
+2021-01-08 23:45:02,846 - INFO - Calculating stations in view for GSAT0211 (PRN E02)...
+2021-01-08 23:48:28,850 - INFO - Getting stations in view along the track for GSAT0210 (PRN E01) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-08 23:48:28,850 - INFO - Getting all positions for GSAT0210 (PRN E01) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-08 23:48:36,990 - INFO - Positions calculated!
+2021-01-08 23:48:36,990 - INFO - Calculating stations in view for GSAT0210 (PRN E01)...
+2021-01-08 23:52:02,098 - INFO - Getting stations in view along the track for GSAT0207 (PRN E07) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-08 23:52:02,098 - INFO - Getting all positions for GSAT0207 (PRN E07) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-08 23:52:10,229 - INFO - Positions calculated!
+2021-01-08 23:52:10,230 - INFO - Calculating stations in view for GSAT0207 (PRN E07)...
+2021-01-08 23:55:35,541 - INFO - Getting stations in view along the track for GSAT0212 (PRN E03) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-08 23:55:35,542 - INFO - Getting all positions for GSAT0212 (PRN E03) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-08 23:55:43,634 - INFO - Positions calculated!
+2021-01-08 23:55:43,635 - INFO - Calculating stations in view for GSAT0212 (PRN E03)...
+2021-01-08 23:59:08,697 - INFO - Getting stations in view along the track for GSAT0213 (PRN E04) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-08 23:59:08,697 - INFO - Getting all positions for GSAT0213 (PRN E04) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-08 23:59:16,858 - INFO - Positions calculated!
+2021-01-08 23:59:16,858 - INFO - Calculating stations in view for GSAT0213 (PRN E04)...
+2021-01-09 00:02:43,111 - INFO - Getting stations in view along the track for GSAT0214 (PRN E05) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 00:02:43,111 - INFO - Getting all positions for GSAT0214 (PRN E05) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 00:02:51,193 - INFO - Positions calculated!
+2021-01-09 00:02:51,193 - INFO - Calculating stations in view for GSAT0214 (PRN E05)...
+2021-01-09 00:06:19,467 - INFO - Getting stations in view along the track for GSAT0215 (PRN E21) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 00:06:19,467 - INFO - Getting all positions for GSAT0215 (PRN E21) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 00:06:27,697 - INFO - Positions calculated!
+2021-01-09 00:06:27,697 - INFO - Calculating stations in view for GSAT0215 (PRN E21)...
+2021-01-09 00:09:54,194 - INFO - Getting stations in view along the track for GSAT0216 (PRN E25) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 00:09:54,194 - INFO - Getting all positions for GSAT0216 (PRN E25) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 00:10:02,266 - INFO - Positions calculated!
+2021-01-09 00:10:02,266 - INFO - Calculating stations in view for GSAT0216 (PRN E25)...
+2021-01-09 00:13:28,760 - INFO - Getting stations in view along the track for GSAT0217 (PRN E27) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 00:13:28,760 - INFO - Getting all positions for GSAT0217 (PRN E27) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 00:13:36,873 - INFO - Positions calculated!
+2021-01-09 00:13:36,874 - INFO - Calculating stations in view for GSAT0217 (PRN E27)...
+2021-01-09 00:17:01,798 - INFO - Getting stations in view along the track for GSAT0218 (PRN E31) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 00:17:01,799 - INFO - Getting all positions for GSAT0218 (PRN E31) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 00:17:09,829 - INFO - Positions calculated!
+2021-01-09 00:17:09,830 - INFO - Calculating stations in view for GSAT0218 (PRN E31)...
+2021-01-09 00:20:37,164 - INFO - Getting stations in view along the track for GSAT0221 (PRN E15) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 00:20:37,165 - INFO - Getting all positions for GSAT0221 (PRN E15) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 00:20:45,279 - INFO - Positions calculated!
+2021-01-09 00:20:45,279 - INFO - Calculating stations in view for GSAT0221 (PRN E15)...
+2021-01-09 00:24:13,726 - INFO - Getting stations in view along the track for GSAT0222 (PRN E33) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 00:24:13,726 - INFO - Getting all positions for GSAT0222 (PRN E33) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 00:24:21,754 - INFO - Positions calculated!
+2021-01-09 00:24:21,755 - INFO - Calculating stations in view for GSAT0222 (PRN E33)...
+2021-01-09 00:27:38,112 - INFO - Getting stations in view along the track for GSAT0219 (PRN E36) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 00:27:38,113 - INFO - Getting all positions for GSAT0219 (PRN E36) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 00:27:45,705 - INFO - Positions calculated!
+2021-01-09 00:27:45,705 - INFO - Calculating stations in view for GSAT0219 (PRN E36)...
+2021-01-09 00:30:47,444 - INFO - Getting stations in view along the track for GSAT0220 (PRN E13) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 00:30:47,444 - INFO - Getting all positions for GSAT0220 (PRN E13) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 00:30:54,980 - INFO - Positions calculated!
+2021-01-09 00:30:54,981 - INFO - Calculating stations in view for GSAT0220 (PRN E13)...
+2021-01-09 00:33:56,870 - INFO - Getting stations in view along the track for GPS BIIR-2  (PRN 13) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 00:33:56,871 - INFO - Getting all positions for GPS BIIR-2  (PRN 13) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 00:34:04,442 - INFO - Positions calculated!
+2021-01-09 00:34:04,443 - INFO - Calculating stations in view for GPS BIIR-2  (PRN 13)...
+2021-01-09 00:37:06,117 - INFO - Getting stations in view along the track for GPS BIIR-4  (PRN 20) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 00:37:06,118 - INFO - Getting all positions for GPS BIIR-4  (PRN 20) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 00:37:13,674 - INFO - Positions calculated!
+2021-01-09 00:37:13,675 - INFO - Calculating stations in view for GPS BIIR-4  (PRN 20)...
+2021-01-09 00:40:15,726 - INFO - Getting stations in view along the track for GPS BIIR-5  (PRN 28) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 00:40:15,726 - INFO - Getting all positions for GPS BIIR-5  (PRN 28) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 00:40:23,287 - INFO - Positions calculated!
+2021-01-09 00:40:23,287 - INFO - Calculating stations in view for GPS BIIR-5  (PRN 28)...
+2021-01-09 00:43:24,413 - INFO - Getting stations in view along the track for GPS BIIR-8  (PRN 16) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 00:43:24,413 - INFO - Getting all positions for GPS BIIR-8  (PRN 16) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 00:43:31,944 - INFO - Positions calculated!
+2021-01-09 00:43:31,944 - INFO - Calculating stations in view for GPS BIIR-8  (PRN 16)...
+2021-01-09 00:46:32,706 - INFO - Getting stations in view along the track for GPS BIIR-9  (PRN 21) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 00:46:32,706 - INFO - Getting all positions for GPS BIIR-9  (PRN 21) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 00:46:40,623 - INFO - Positions calculated!
+2021-01-09 00:46:40,623 - INFO - Calculating stations in view for GPS BIIR-9  (PRN 21)...
+2021-01-09 00:49:41,730 - INFO - Getting stations in view along the track for GPS BIIR-10 (PRN 22) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 00:49:41,730 - INFO - Getting all positions for GPS BIIR-10 (PRN 22) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 00:49:49,186 - INFO - Positions calculated!
+2021-01-09 00:49:49,187 - INFO - Calculating stations in view for GPS BIIR-10 (PRN 22)...
+2021-01-09 00:52:49,101 - INFO - Getting stations in view along the track for GPS BIIR-11 (PRN 19) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 00:52:49,102 - INFO - Getting all positions for GPS BIIR-11 (PRN 19) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 00:52:56,596 - INFO - Positions calculated!
+2021-01-09 00:52:56,596 - INFO - Calculating stations in view for GPS BIIR-11 (PRN 19)...
+2021-01-09 00:55:57,789 - INFO - Getting stations in view along the track for GPS BIIR-13 (PRN 02) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 00:55:57,789 - INFO - Getting all positions for GPS BIIR-13 (PRN 02) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 00:56:05,204 - INFO - Positions calculated!
+2021-01-09 00:56:05,204 - INFO - Calculating stations in view for GPS BIIR-13 (PRN 02)...
+2021-01-09 00:59:05,376 - INFO - Getting stations in view along the track for GPS BIIRM-1 (PRN 17) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 00:59:05,377 - INFO - Getting all positions for GPS BIIRM-1 (PRN 17) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 00:59:12,844 - INFO - Positions calculated!
+2021-01-09 00:59:12,846 - INFO - Calculating stations in view for GPS BIIRM-1 (PRN 17)...
+2021-01-09 01:02:12,861 - INFO - Getting stations in view along the track for GPS BIIRM-2 (PRN 31) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 01:02:12,862 - INFO - Getting all positions for GPS BIIRM-2 (PRN 31) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 01:02:20,316 - INFO - Positions calculated!
+2021-01-09 01:02:20,317 - INFO - Calculating stations in view for GPS BIIRM-2 (PRN 31)...
+2021-01-09 01:05:20,725 - INFO - Getting stations in view along the track for GPS BIIRM-3 (PRN 12) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 01:05:20,725 - INFO - Getting all positions for GPS BIIRM-3 (PRN 12) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 01:05:28,152 - INFO - Positions calculated!
+2021-01-09 01:05:28,152 - INFO - Calculating stations in view for GPS BIIRM-3 (PRN 12)...
+2021-01-09 01:08:28,169 - INFO - Getting stations in view along the track for GPS BIIRM-4 (PRN 15) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 01:08:28,169 - INFO - Getting all positions for GPS BIIRM-4 (PRN 15) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 01:08:35,624 - INFO - Positions calculated!
+2021-01-09 01:08:35,624 - INFO - Calculating stations in view for GPS BIIRM-4 (PRN 15)...
+2021-01-09 01:11:35,658 - INFO - Getting stations in view along the track for GPS BIIRM-5 (PRN 29) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 01:11:35,659 - INFO - Getting all positions for GPS BIIRM-5 (PRN 29) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 01:11:43,126 - INFO - Positions calculated!
+2021-01-09 01:11:43,126 - INFO - Calculating stations in view for GPS BIIRM-5 (PRN 29)...
+2021-01-09 01:14:44,010 - INFO - Getting stations in view along the track for GPS BIIRM-6 (PRN 07) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 01:14:44,010 - INFO - Getting all positions for GPS BIIRM-6 (PRN 07) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 01:14:51,495 - INFO - Positions calculated!
+2021-01-09 01:14:51,496 - INFO - Calculating stations in view for GPS BIIRM-6 (PRN 07)...
+2021-01-09 01:17:51,508 - INFO - Getting stations in view along the track for GPS BIIRM-8 (PRN 05) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 01:17:51,508 - INFO - Getting all positions for GPS BIIRM-8 (PRN 05) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 01:17:58,964 - INFO - Positions calculated!
+2021-01-09 01:17:58,964 - INFO - Calculating stations in view for GPS BIIRM-8 (PRN 05)...
+2021-01-09 01:20:59,535 - INFO - Getting stations in view along the track for GPS BIIF-1  (PRN 25) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 01:20:59,536 - INFO - Getting all positions for GPS BIIF-1  (PRN 25) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 01:21:06,995 - INFO - Positions calculated!
+2021-01-09 01:21:06,999 - INFO - Calculating stations in view for GPS BIIF-1  (PRN 25)...
+2021-01-09 01:24:07,619 - INFO - Getting stations in view along the track for GPS BIIF-2  (PRN 01) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 01:24:07,619 - INFO - Getting all positions for GPS BIIF-2  (PRN 01) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 01:24:15,111 - INFO - Positions calculated!
+2021-01-09 01:24:15,111 - INFO - Calculating stations in view for GPS BIIF-2  (PRN 01)...
+2021-01-09 01:27:15,438 - INFO - Getting stations in view along the track for GPS BIIF-3  (PRN 24) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 01:27:15,438 - INFO - Getting all positions for GPS BIIF-3  (PRN 24) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 01:27:22,950 - INFO - Positions calculated!
+2021-01-09 01:27:22,951 - INFO - Calculating stations in view for GPS BIIF-3  (PRN 24)...
+2021-01-09 01:30:23,032 - INFO - Getting stations in view along the track for GPS BIIF-4  (PRN 27) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 01:30:23,033 - INFO - Getting all positions for GPS BIIF-4  (PRN 27) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 01:30:30,534 - INFO - Positions calculated!
+2021-01-09 01:30:30,534 - INFO - Calculating stations in view for GPS BIIF-4  (PRN 27)...
+2021-01-09 01:33:31,623 - INFO - Getting stations in view along the track for GPS BIIF-5  (PRN 30) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 01:33:31,623 - INFO - Getting all positions for GPS BIIF-5  (PRN 30) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 01:33:39,066 - INFO - Positions calculated!
+2021-01-09 01:33:39,067 - INFO - Calculating stations in view for GPS BIIF-5  (PRN 30)...
+2021-01-09 01:36:38,989 - INFO - Getting stations in view along the track for GPS BIIF-6  (PRN 06) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 01:36:38,989 - INFO - Getting all positions for GPS BIIF-6  (PRN 06) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 01:36:46,475 - INFO - Positions calculated!
+2021-01-09 01:36:46,475 - INFO - Calculating stations in view for GPS BIIF-6  (PRN 06)...
+2021-01-09 01:39:46,683 - INFO - Getting stations in view along the track for GPS BIIF-7  (PRN 09) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 01:39:46,684 - INFO - Getting all positions for GPS BIIF-7  (PRN 09) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 01:39:54,127 - INFO - Positions calculated!
+2021-01-09 01:39:54,127 - INFO - Calculating stations in view for GPS BIIF-7  (PRN 09)...
+2021-01-09 01:42:54,271 - INFO - Getting stations in view along the track for GPS BIIF-8  (PRN 03) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 01:42:54,271 - INFO - Getting all positions for GPS BIIF-8  (PRN 03) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 01:43:01,711 - INFO - Positions calculated!
+2021-01-09 01:43:01,711 - INFO - Calculating stations in view for GPS BIIF-8  (PRN 03)...
+2021-01-09 01:46:01,911 - INFO - Getting stations in view along the track for GPS BIIF-9  (PRN 26) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 01:46:01,912 - INFO - Getting all positions for GPS BIIF-9  (PRN 26) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 01:46:09,408 - INFO - Positions calculated!
+2021-01-09 01:46:09,408 - INFO - Calculating stations in view for GPS BIIF-9  (PRN 26)...
+2021-01-09 01:49:09,618 - INFO - Getting stations in view along the track for GPS BIIF-10 (PRN 08) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 01:49:09,618 - INFO - Getting all positions for GPS BIIF-10 (PRN 08) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 01:49:17,070 - INFO - Positions calculated!
+2021-01-09 01:49:17,070 - INFO - Calculating stations in view for GPS BIIF-10 (PRN 08)...
+2021-01-09 01:52:18,372 - INFO - Getting stations in view along the track for GPS BIIF-11 (PRN 10) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 01:52:18,373 - INFO - Getting all positions for GPS BIIF-11 (PRN 10) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 01:52:25,800 - INFO - Positions calculated!
+2021-01-09 01:52:25,801 - INFO - Calculating stations in view for GPS BIIF-11 (PRN 10)...
+2021-01-09 01:55:26,063 - INFO - Getting stations in view along the track for GPS BIIF-12 (PRN 32) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 01:55:26,063 - INFO - Getting all positions for GPS BIIF-12 (PRN 32) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 01:55:33,516 - INFO - Positions calculated!
+2021-01-09 01:55:33,516 - INFO - Calculating stations in view for GPS BIIF-12 (PRN 32)...
+2021-01-09 01:58:33,705 - INFO - Getting stations in view along the track for GPS BIII-1  (PRN 04) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 01:58:33,705 - INFO - Getting all positions for GPS BIII-1  (PRN 04) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 01:58:41,231 - INFO - Positions calculated!
+2021-01-09 01:58:41,231 - INFO - Calculating stations in view for GPS BIII-1  (PRN 04)...
+2021-01-09 02:01:41,294 - INFO - Getting stations in view along the track for GPS BIII-2  (PRN 18) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 02:01:41,294 - INFO - Getting all positions for GPS BIII-2  (PRN 18) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 02:01:48,728 - INFO - Positions calculated!
+2021-01-09 02:01:48,729 - INFO - Calculating stations in view for GPS BIII-2  (PRN 18)...
+2021-01-09 02:04:48,598 - INFO - Getting stations in view along the track for GPS BIII-3  (PRN 23) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 02:04:48,598 - INFO - Getting all positions for GPS BIII-3  (PRN 23) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 02:04:56,047 - INFO - Positions calculated!
+2021-01-09 02:04:56,048 - INFO - Calculating stations in view for GPS BIII-3  (PRN 23)...
+2021-01-09 02:07:55,549 - INFO - Getting stations in view along the track for BEIDOU 3 (C01) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 02:07:55,550 - INFO - Getting all positions for BEIDOU 3 (C01) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 02:08:03,020 - INFO - Positions calculated!
+2021-01-09 02:08:03,020 - INFO - Calculating stations in view for BEIDOU 3 (C01)...
+2021-01-09 02:11:03,665 - INFO - Getting stations in view along the track for BEIDOU 5 (C06) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 02:11:03,665 - INFO - Getting all positions for BEIDOU 5 (C06) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 02:11:11,204 - INFO - Positions calculated!
+2021-01-09 02:11:11,204 - INFO - Calculating stations in view for BEIDOU 5 (C06)...
+2021-01-09 02:14:10,808 - INFO - Getting stations in view along the track for BEIDOU 6 (C04) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 02:14:10,808 - INFO - Getting all positions for BEIDOU 6 (C04) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 02:14:18,241 - INFO - Positions calculated!
+2021-01-09 02:14:18,242 - INFO - Calculating stations in view for BEIDOU 6 (C04)...
+2021-01-09 02:17:17,751 - INFO - Getting stations in view along the track for BEIDOU 7 (C07) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 02:17:17,751 - INFO - Getting all positions for BEIDOU 7 (C07) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 02:17:25,251 - INFO - Positions calculated!
+2021-01-09 02:17:25,251 - INFO - Calculating stations in view for BEIDOU 7 (C07)...
+2021-01-09 02:20:25,659 - INFO - Getting stations in view along the track for BEIDOU 8 (C08) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 02:20:25,659 - INFO - Getting all positions for BEIDOU 8 (C08) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 02:20:33,131 - INFO - Positions calculated!
+2021-01-09 02:20:33,132 - INFO - Calculating stations in view for BEIDOU 8 (C08)...
+2021-01-09 02:23:32,692 - INFO - Getting stations in view along the track for BEIDOU 9 (C09) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 02:23:32,693 - INFO - Getting all positions for BEIDOU 9 (C09) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 02:23:40,201 - INFO - Positions calculated!
+2021-01-09 02:23:40,202 - INFO - Calculating stations in view for BEIDOU 9 (C09)...
+2021-01-09 02:26:40,558 - INFO - Getting stations in view along the track for BEIDOU 10 (C10) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 02:26:40,558 - INFO - Getting all positions for BEIDOU 10 (C10) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 02:26:47,987 - INFO - Positions calculated!
+2021-01-09 02:26:47,987 - INFO - Calculating stations in view for BEIDOU 10 (C10)...
+2021-01-09 02:29:48,146 - INFO - Getting stations in view along the track for BEIDOU 11 (C05) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 02:29:48,146 - INFO - Getting all positions for BEIDOU 11 (C05) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 02:29:55,594 - INFO - Positions calculated!
+2021-01-09 02:29:55,595 - INFO - Calculating stations in view for BEIDOU 11 (C05)...
+2021-01-09 02:32:55,059 - INFO - Getting stations in view along the track for BEIDOU 12 (C11) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 02:32:55,059 - INFO - Getting all positions for BEIDOU 12 (C11) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 02:33:02,547 - INFO - Positions calculated!
+2021-01-09 02:33:02,548 - INFO - Calculating stations in view for BEIDOU 12 (C11)...
+2021-01-09 02:36:02,294 - INFO - Getting stations in view along the track for BEIDOU 13 (C12) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 02:36:02,295 - INFO - Getting all positions for BEIDOU 13 (C12) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 02:36:09,805 - INFO - Positions calculated!
+2021-01-09 02:36:09,805 - INFO - Calculating stations in view for BEIDOU 13 (C12)...
+2021-01-09 02:39:09,416 - INFO - Getting stations in view along the track for BEIDOU 15 (C14) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 02:39:09,416 - INFO - Getting all positions for BEIDOU 15 (C14) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 02:39:16,840 - INFO - Positions calculated!
+2021-01-09 02:39:16,840 - INFO - Calculating stations in view for BEIDOU 15 (C14)...
+2021-01-09 02:42:16,581 - INFO - Getting stations in view along the track for BEIDOU 16 (C02) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 02:42:16,581 - INFO - Getting all positions for BEIDOU 16 (C02) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 02:42:24,000 - INFO - Positions calculated!
+2021-01-09 02:42:24,000 - INFO - Calculating stations in view for BEIDOU 16 (C02)...
+2021-01-09 02:45:24,353 - INFO - Getting stations in view along the track for BEIDOU 17 (C31) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 02:45:24,353 - INFO - Getting all positions for BEIDOU 17 (C31) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 02:45:31,810 - INFO - Positions calculated!
+2021-01-09 02:45:31,810 - INFO - Calculating stations in view for BEIDOU 17 (C31)...
+2021-01-09 02:48:31,848 - INFO - Getting stations in view along the track for BEIDOU 18 (C57) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 02:48:31,848 - INFO - Getting all positions for BEIDOU 18 (C57) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 02:48:39,281 - INFO - Positions calculated!
+2021-01-09 02:48:39,281 - INFO - Calculating stations in view for BEIDOU 18 (C57)...
+2021-01-09 02:51:38,810 - INFO - Getting stations in view along the track for BEIDOU 19 (C58) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 02:51:38,810 - INFO - Getting all positions for BEIDOU 19 (C58) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 02:51:46,240 - INFO - Positions calculated!
+2021-01-09 02:51:46,240 - INFO - Calculating stations in view for BEIDOU 19 (C58)...
+2021-01-09 02:54:46,177 - INFO - Getting stations in view along the track for BEIDOU 20 (C18) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 02:54:46,177 - INFO - Getting all positions for BEIDOU 20 (C18) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 02:54:53,627 - INFO - Positions calculated!
+2021-01-09 02:54:53,628 - INFO - Calculating stations in view for BEIDOU 20 (C18)...
+2021-01-09 02:57:52,916 - INFO - Getting stations in view along the track for BEIDOU IGSO-6 (C13) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 02:57:52,917 - INFO - Getting all positions for BEIDOU IGSO-6 (C13) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 02:58:00,339 - INFO - Positions calculated!
+2021-01-09 02:58:00,340 - INFO - Calculating stations in view for BEIDOU IGSO-6 (C13)...
+2021-01-09 03:00:59,982 - INFO - Getting stations in view along the track for BEIDOU-2 G7 (C03) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 03:00:59,982 - INFO - Getting all positions for BEIDOU-2 G7 (C03) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 03:01:07,424 - INFO - Positions calculated!
+2021-01-09 03:01:07,427 - INFO - Calculating stations in view for BEIDOU-2 G7 (C03)...
+2021-01-09 03:04:08,852 - INFO - Getting stations in view along the track for BEIDOU-3 M1 (C19) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 03:04:08,852 - INFO - Getting all positions for BEIDOU-3 M1 (C19) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 03:04:16,271 - INFO - Positions calculated!
+2021-01-09 03:04:16,271 - INFO - Calculating stations in view for BEIDOU-3 M1 (C19)...
+2021-01-09 03:07:15,653 - INFO - Getting stations in view along the track for BEIDOU-3 M2 (C20) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 03:07:15,653 - INFO - Getting all positions for BEIDOU-3 M2 (C20) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 03:07:23,109 - INFO - Positions calculated!
+2021-01-09 03:07:23,109 - INFO - Calculating stations in view for BEIDOU-3 M2 (C20)...
+2021-01-09 03:10:23,068 - INFO - Getting stations in view along the track for BEIDOU-3 M3 (C27) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 03:10:23,068 - INFO - Getting all positions for BEIDOU-3 M3 (C27) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 03:10:30,544 - INFO - Positions calculated!
+2021-01-09 03:10:30,545 - INFO - Calculating stations in view for BEIDOU-3 M3 (C27)...
+2021-01-09 03:13:30,642 - INFO - Getting stations in view along the track for BEIDOU-3 M4 (C28) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 03:13:30,642 - INFO - Getting all positions for BEIDOU-3 M4 (C28) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 03:13:38,099 - INFO - Positions calculated!
+2021-01-09 03:13:38,104 - INFO - Calculating stations in view for BEIDOU-3 M4 (C28)...
+2021-01-09 03:16:38,150 - INFO - Getting stations in view along the track for BEIDOU-3 M5 (C21) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 03:16:38,151 - INFO - Getting all positions for BEIDOU-3 M5 (C21) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 03:16:45,615 - INFO - Positions calculated!
+2021-01-09 03:16:45,615 - INFO - Calculating stations in view for BEIDOU-3 M5 (C21)...
+2021-01-09 03:19:46,237 - INFO - Getting stations in view along the track for BEIDOU-3 M6 (C22) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 03:19:46,237 - INFO - Getting all positions for BEIDOU-3 M6 (C22) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 03:19:53,671 - INFO - Positions calculated!
+2021-01-09 03:19:53,671 - INFO - Calculating stations in view for BEIDOU-3 M6 (C22)...
+2021-01-09 03:22:55,190 - INFO - Getting stations in view along the track for BEIDOU-3 M7 (C29) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 03:22:55,191 - INFO - Getting all positions for BEIDOU-3 M7 (C29) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 03:23:02,680 - INFO - Positions calculated!
+2021-01-09 03:23:02,680 - INFO - Calculating stations in view for BEIDOU-3 M7 (C29)...
+2021-01-09 03:26:02,926 - INFO - Getting stations in view along the track for BEIDOU-3 M8 (C30) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 03:26:02,926 - INFO - Getting all positions for BEIDOU-3 M8 (C30) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 03:26:10,383 - INFO - Positions calculated!
+2021-01-09 03:26:10,383 - INFO - Calculating stations in view for BEIDOU-3 M8 (C30)...
+2021-01-09 03:29:10,486 - INFO - Getting stations in view along the track for BEIDOU IGSO-7 (C16) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 03:29:10,486 - INFO - Getting all positions for BEIDOU IGSO-7 (C16) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 03:29:17,939 - INFO - Positions calculated!
+2021-01-09 03:29:17,939 - INFO - Calculating stations in view for BEIDOU IGSO-7 (C16)...
+2021-01-09 03:32:18,030 - INFO - Getting stations in view along the track for BEIDOU-3 M9 (C23) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 03:32:18,030 - INFO - Getting all positions for BEIDOU-3 M9 (C23) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 03:32:25,565 - INFO - Positions calculated!
+2021-01-09 03:32:25,565 - INFO - Calculating stations in view for BEIDOU-3 M9 (C23)...
+2021-01-09 03:35:25,824 - INFO - Getting stations in view along the track for BEIDOU-3 M10 (C24) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 03:35:25,825 - INFO - Getting all positions for BEIDOU-3 M10 (C24) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 03:35:33,350 - INFO - Positions calculated!
+2021-01-09 03:35:33,350 - INFO - Calculating stations in view for BEIDOU-3 M10 (C24)...
+2021-01-09 03:38:34,674 - INFO - Getting stations in view along the track for BEIDOU-3 M11 (C25) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 03:38:34,674 - INFO - Getting all positions for BEIDOU-3 M11 (C25) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 03:38:42,165 - INFO - Positions calculated!
+2021-01-09 03:38:42,165 - INFO - Calculating stations in view for BEIDOU-3 M11 (C25)...
+2021-01-09 03:41:41,967 - INFO - Getting stations in view along the track for BEIDOU-3 M12 (C26) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 03:41:41,967 - INFO - Getting all positions for BEIDOU-3 M12 (C26) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 03:41:49,409 - INFO - Positions calculated!
+2021-01-09 03:41:49,409 - INFO - Calculating stations in view for BEIDOU-3 M12 (C26)...
+2021-01-09 03:44:49,990 - INFO - Getting stations in view along the track for BEIDOU-3 M13 (C32) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 03:44:49,991 - INFO - Getting all positions for BEIDOU-3 M13 (C32) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 03:44:57,461 - INFO - Positions calculated!
+2021-01-09 03:44:57,461 - INFO - Calculating stations in view for BEIDOU-3 M13 (C32)...
+2021-01-09 03:47:57,604 - INFO - Getting stations in view along the track for BEIDOU-3 M14 (C33) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 03:47:57,604 - INFO - Getting all positions for BEIDOU-3 M14 (C33) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 03:48:05,170 - INFO - Positions calculated!
+2021-01-09 03:48:05,171 - INFO - Calculating stations in view for BEIDOU-3 M14 (C33)...
+2021-01-09 03:51:05,276 - INFO - Getting stations in view along the track for BEIDOU-3 M15 (C34) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 03:51:05,276 - INFO - Getting all positions for BEIDOU-3 M15 (C34) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 03:51:12,752 - INFO - Positions calculated!
+2021-01-09 03:51:12,752 - INFO - Calculating stations in view for BEIDOU-3 M15 (C34)...
+2021-01-09 03:54:12,791 - INFO - Getting stations in view along the track for BEIDOU-3 M16 (C35) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 03:54:12,792 - INFO - Getting all positions for BEIDOU-3 M16 (C35) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 03:54:20,245 - INFO - Positions calculated!
+2021-01-09 03:54:20,246 - INFO - Calculating stations in view for BEIDOU-3 M16 (C35)...
+2021-01-09 03:57:20,124 - INFO - Getting stations in view along the track for BEIDOU-3 G1 (C59) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 03:57:20,124 - INFO - Getting all positions for BEIDOU-3 G1 (C59) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 03:57:27,640 - INFO - Positions calculated!
+2021-01-09 03:57:27,640 - INFO - Calculating stations in view for BEIDOU-3 G1 (C59)...
+2021-01-09 04:00:28,971 - INFO - Getting stations in view along the track for BEIDOU-3 M17 (C36) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 04:00:28,972 - INFO - Getting all positions for BEIDOU-3 M17 (C36) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 04:00:36,366 - INFO - Positions calculated!
+2021-01-09 04:00:36,366 - INFO - Calculating stations in view for BEIDOU-3 M17 (C36)...
+2021-01-09 04:03:36,595 - INFO - Getting stations in view along the track for BEIDOU-3 M18 (C37) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 04:03:36,595 - INFO - Getting all positions for BEIDOU-3 M18 (C37) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 04:03:44,040 - INFO - Positions calculated!
+2021-01-09 04:03:44,040 - INFO - Calculating stations in view for BEIDOU-3 M18 (C37)...
+2021-01-09 04:06:43,609 - INFO - Getting stations in view along the track for BEIDOU-3 IGSO-1 (C38) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 04:06:43,610 - INFO - Getting all positions for BEIDOU-3 IGSO-1 (C38) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 04:06:51,084 - INFO - Positions calculated!
+2021-01-09 04:06:51,085 - INFO - Calculating stations in view for BEIDOU-3 IGSO-1 (C38)...
+2021-01-09 04:09:51,383 - INFO - Skipping norad id BEIDOU-2 G8 as results are already present.
+2021-01-09 04:09:51,383 - INFO - Getting stations in view along the track for BEIDOU-3 IGSO-2 (C39) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 04:09:51,383 - INFO - Getting all positions for BEIDOU-3 IGSO-2 (C39) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 04:09:58,869 - INFO - Positions calculated!
+2021-01-09 04:09:58,869 - INFO - Calculating stations in view for BEIDOU-3 IGSO-2 (C39)...
+2021-01-09 04:12:58,677 - INFO - Getting stations in view along the track for BEIDOU-3 M23 (C45) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 04:12:58,678 - INFO - Getting all positions for BEIDOU-3 M23 (C45) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 04:13:06,411 - INFO - Positions calculated!
+2021-01-09 04:13:06,411 - INFO - Calculating stations in view for BEIDOU-3 M23 (C45)...
+2021-01-09 04:16:07,166 - INFO - Getting stations in view along the track for BEIDOU-3 M24 (C46) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 04:16:07,166 - INFO - Getting all positions for BEIDOU-3 M24 (C46) between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 04:16:14,627 - INFO - Positions calculated!
+2021-01-09 04:16:14,627 - INFO - Calculating stations in view for BEIDOU-3 M24 (C46)...
+2021-01-09 04:19:15,147 - INFO - Getting stations in view along the track for BEIDOU-3 IGSO-3 between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 04:19:15,148 - INFO - Getting all positions for BEIDOU-3 IGSO-3 between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 04:19:22,595 - INFO - Positions calculated!
+2021-01-09 04:19:22,596 - INFO - Calculating stations in view for BEIDOU-3 IGSO-3...
+2021-01-09 04:22:23,104 - INFO - Getting stations in view along the track for BEIDOU-3 M21 between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 04:22:23,104 - INFO - Getting all positions for BEIDOU-3 M21 between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 04:22:30,539 - INFO - Positions calculated!
+2021-01-09 04:22:30,539 - INFO - Calculating stations in view for BEIDOU-3 M21...
+2021-01-09 04:25:30,606 - INFO - Getting stations in view along the track for BEIDOU-3 M22 between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 04:25:30,607 - INFO - Getting all positions for BEIDOU-3 M22 between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 04:25:38,108 - INFO - Positions calculated!
+2021-01-09 04:25:38,108 - INFO - Calculating stations in view for BEIDOU-3 M22...
+2021-01-09 04:28:40,554 - INFO - Getting stations in view along the track for BEIDOU-3 M19 between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 04:28:40,555 - INFO - Getting all positions for BEIDOU-3 M19 between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 04:28:48,058 - INFO - Positions calculated!
+2021-01-09 04:28:48,059 - INFO - Calculating stations in view for BEIDOU-3 M19...
+2021-01-09 04:31:47,900 - INFO - Getting stations in view along the track for BEIDOU-3 M20 between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 04:31:47,901 - INFO - Getting all positions for BEIDOU-3 M20 between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 04:31:55,423 - INFO - Positions calculated!
+2021-01-09 04:31:55,424 - INFO - Calculating stations in view for BEIDOU-3 M20...
+2021-01-09 04:34:56,941 - INFO - Getting stations in view along the track for BEIDOU-3 G2 between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 04:34:56,941 - INFO - Getting all positions for BEIDOU-3 G2 between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 04:35:04,479 - INFO - Positions calculated!
+2021-01-09 04:35:04,480 - INFO - Calculating stations in view for BEIDOU-3 G2...
+2021-01-09 04:38:04,051 - INFO - Getting stations in view along the track for BEIDOU-3 G3 between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 04:38:04,051 - INFO - Getting all positions for BEIDOU-3 G3 between 2020-12-28 00:00:00 and 2020-12-29 00:00:00
+2021-01-09 04:38:11,742 - INFO - Positions calculated!
+2021-01-09 04:38:11,742 - INFO - Calculating stations in view for BEIDOU-3 G3...
+2021-01-09 04:41:11,470 - INFO - Skipping norad id GSAT0101 (PRN E11) as results are already present.
+2021-01-09 04:41:11,470 - INFO - Skipping norad id GSAT0102 (PRN E12) as results are already present.
+2021-01-09 04:41:11,471 - INFO - Skipping norad id GSAT0103 (PRN E19) as results are already present.
+2021-01-09 04:41:11,471 - INFO - Skipping norad id GSAT0104 (PRN E20) as results are already present.
+2021-01-09 04:41:11,473 - INFO - Skipping norad id GSAT0201 (PRN E18) as results are already present.
+2021-01-09 04:41:11,475 - INFO - Skipping norad id GSAT0202 (PRN E14) as results are already present.
+2021-01-09 04:41:11,476 - INFO - Skipping norad id GSAT0203 (PRN E26) as results are already present.
+2021-01-09 04:41:11,476 - INFO - Skipping norad id GSAT0204 (PRN E22) as results are already present.
+2021-01-09 04:41:11,477 - INFO - Skipping norad id GSAT0205 (PRN E24) as results are already present.
+2021-01-09 04:41:11,477 - INFO - Skipping norad id GSAT0206 (PRN E30) as results are already present.
+2021-01-09 04:41:11,478 - INFO - Skipping norad id GSAT0209 (PRN E09) as results are already present.
+2021-01-09 04:41:11,480 - INFO - Skipping norad id GSAT0208 (PRN E08) as results are already present.
+2021-01-09 04:41:11,482 - INFO - Skipping norad id GSAT0211 (PRN E02) as results are already present.
+2021-01-09 04:41:11,483 - INFO - Skipping norad id GSAT0210 (PRN E01) as results are already present.
+2021-01-09 04:41:11,483 - INFO - Skipping norad id GSAT0207 (PRN E07) as results are already present.
+2021-01-09 04:41:11,484 - INFO - Skipping norad id GSAT0212 (PRN E03) as results are already present.
+2021-01-09 04:41:11,485 - INFO - Skipping norad id GSAT0213 (PRN E04) as results are already present.
+2021-01-09 04:41:11,486 - INFO - Skipping norad id GSAT0214 (PRN E05) as results are already present.
+2021-01-09 04:41:11,487 - INFO - Skipping norad id GSAT0215 (PRN E21) as results are already present.
+2021-01-09 04:41:11,488 - INFO - Skipping norad id GSAT0216 (PRN E25) as results are already present.
+2021-01-09 04:41:11,488 - INFO - Skipping norad id GSAT0217 (PRN E27) as results are already present.
+2021-01-09 04:41:11,488 - INFO - Skipping norad id GSAT0218 (PRN E31) as results are already present.
+2021-01-09 04:41:11,489 - INFO - Skipping norad id GSAT0221 (PRN E15) as results are already present.
+2021-01-09 04:41:11,490 - INFO - Skipping norad id GSAT0222 (PRN E33) as results are already present.
+2021-01-09 04:41:11,491 - INFO - Skipping norad id GSAT0219 (PRN E36) as results are already present.
+2021-01-09 04:41:11,491 - INFO - Skipping norad id GSAT0220 (PRN E13) as results are already present.
+2021-01-09 04:41:11,494 - INFO - Skipping norad id GPS BIIR-2  (PRN 13) as results are already present.
+2021-01-09 04:41:11,497 - INFO - Skipping norad id GPS BIIR-4  (PRN 20) as results are already present.
+2021-01-09 04:41:11,499 - INFO - Skipping norad id GPS BIIR-5  (PRN 28) as results are already present.
+2021-01-09 04:41:11,502 - INFO - Skipping norad id GPS BIIR-8  (PRN 16) as results are already present.
+2021-01-09 04:41:11,503 - INFO - Skipping norad id GPS BIIR-9  (PRN 21) as results are already present.
+2021-01-09 04:41:11,504 - INFO - Skipping norad id GPS BIIR-10 (PRN 22) as results are already present.
+2021-01-09 04:41:11,504 - INFO - Skipping norad id GPS BIIR-11 (PRN 19) as results are already present.
+2021-01-09 04:41:11,505 - INFO - Skipping norad id GPS BIIR-13 (PRN 02) as results are already present.
+2021-01-09 04:41:11,506 - INFO - Skipping norad id GPS BIIRM-1 (PRN 17) as results are already present.
+2021-01-09 04:41:11,508 - INFO - Skipping norad id GPS BIIRM-2 (PRN 31) as results are already present.
+2021-01-09 04:41:11,510 - INFO - Skipping norad id GPS BIIRM-3 (PRN 12) as results are already present.
+2021-01-09 04:41:11,512 - INFO - Skipping norad id GPS BIIRM-4 (PRN 15) as results are already present.
+2021-01-09 04:41:11,512 - INFO - Skipping norad id GPS BIIRM-5 (PRN 29) as results are already present.
+2021-01-09 04:41:11,514 - INFO - Skipping norad id GPS BIIRM-6 (PRN 07) as results are already present.
+2021-01-09 04:41:11,516 - INFO - Skipping norad id GPS BIIRM-8 (PRN 05) as results are already present.
+2021-01-09 04:41:11,518 - INFO - Skipping norad id GPS BIIF-1  (PRN 25) as results are already present.
+2021-01-09 04:41:11,519 - INFO - Skipping norad id GPS BIIF-2  (PRN 01) as results are already present.
+2021-01-09 04:41:11,522 - INFO - Skipping norad id GPS BIIF-3  (PRN 24) as results are already present.
+2021-01-09 04:41:11,522 - INFO - Skipping norad id GPS BIIF-4  (PRN 27) as results are already present.
+2021-01-09 04:41:11,523 - INFO - Skipping norad id GPS BIIF-5  (PRN 30) as results are already present.
+2021-01-09 04:41:11,523 - INFO - Skipping norad id GPS BIIF-6  (PRN 06) as results are already present.
+2021-01-09 04:41:11,524 - INFO - Skipping norad id GPS BIIF-7  (PRN 09) as results are already present.
+2021-01-09 04:41:11,526 - INFO - Skipping norad id GPS BIIF-8  (PRN 03) as results are already present.
+2021-01-09 04:41:11,528 - INFO - Skipping norad id GPS BIIF-9  (PRN 26) as results are already present.
+2021-01-09 04:41:11,529 - INFO - Skipping norad id GPS BIIF-10 (PRN 08) as results are already present.
+2021-01-09 04:41:11,530 - INFO - Skipping norad id GPS BIIF-11 (PRN 10) as results are already present.
+2021-01-09 04:41:11,531 - INFO - Skipping norad id GPS BIIF-12 (PRN 32) as results are already present.
+2021-01-09 04:41:11,533 - INFO - Skipping norad id GPS BIII-1  (PRN 04) as results are already present.
+2021-01-09 04:41:11,535 - INFO - Skipping norad id GPS BIII-2  (PRN 18) as results are already present.
+2021-01-09 04:41:11,538 - INFO - Skipping norad id GPS BIII-3  (PRN 23) as results are already present.
+2021-01-09 04:41:11,539 - INFO - Skipping norad id BEIDOU 3 (C01) as results are already present.
+2021-01-09 04:41:11,541 - INFO - Skipping norad id BEIDOU 5 (C06) as results are already present.
+2021-01-09 04:41:11,543 - INFO - Skipping norad id BEIDOU 6 (C04) as results are already present.
+2021-01-09 04:41:11,545 - INFO - Skipping norad id BEIDOU 7 (C07) as results are already present.
+2021-01-09 04:41:11,547 - INFO - Skipping norad id BEIDOU 8 (C08) as results are already present.
+2021-01-09 04:41:11,549 - INFO - Skipping norad id BEIDOU 9 (C09) as results are already present.
+2021-01-09 04:41:11,551 - INFO - Skipping norad id BEIDOU 10 (C10) as results are already present.
+2021-01-09 04:41:11,553 - INFO - Skipping norad id BEIDOU 11 (C05) as results are already present.
+2021-01-09 04:41:11,555 - INFO - Skipping norad id BEIDOU 12 (C11) as results are already present.
+2021-01-09 04:41:11,557 - INFO - Skipping norad id BEIDOU 13 (C12) as results are already present.
+2021-01-09 04:41:11,559 - INFO - Skipping norad id BEIDOU 15 (C14) as results are already present.
+2021-01-09 04:41:11,561 - INFO - Skipping norad id BEIDOU 16 (C02) as results are already present.
+2021-01-09 04:41:11,562 - INFO - Skipping norad id BEIDOU 17 (C31) as results are already present.
+2021-01-09 04:41:11,564 - INFO - Skipping norad id BEIDOU 18 (C57) as results are already present.
+2021-01-09 04:41:11,566 - INFO - Skipping norad id BEIDOU 19 (C58) as results are already present.
+2021-01-09 04:41:11,567 - INFO - Skipping norad id BEIDOU 20 (C18) as results are already present.
+2021-01-09 04:41:11,567 - INFO - Skipping norad id BEIDOU IGSO-6 (C13) as results are already present.
+2021-01-09 04:41:11,568 - INFO - Skipping norad id BEIDOU-2 G7 (C03) as results are already present.
+2021-01-09 04:41:11,568 - INFO - Skipping norad id BEIDOU-3 M1 (C19) as results are already present.
+2021-01-09 04:41:11,570 - INFO - Skipping norad id BEIDOU-3 M2 (C20) as results are already present.
+2021-01-09 04:41:11,571 - INFO - Skipping norad id BEIDOU-3 M3 (C27) as results are already present.
+2021-01-09 04:41:11,572 - INFO - Skipping norad id BEIDOU-3 M4 (C28) as results are already present.
+2021-01-09 04:41:11,574 - INFO - Skipping norad id BEIDOU-3 M5 (C21) as results are already present.
+2021-01-09 04:41:11,574 - INFO - Skipping norad id BEIDOU-3 M6 (C22) as results are already present.
+2021-01-09 04:41:11,575 - INFO - Skipping norad id BEIDOU-3 M7 (C29) as results are already present.
+2021-01-09 04:41:11,575 - INFO - Skipping norad id BEIDOU-3 M8 (C30) as results are already present.
+2021-01-09 04:41:11,577 - INFO - Skipping norad id BEIDOU IGSO-7 (C16) as results are already present.
+2021-01-09 04:41:11,579 - INFO - Skipping norad id BEIDOU-3 M9 (C23) as results are already present.
+2021-01-09 04:41:11,581 - INFO - Skipping norad id BEIDOU-3 M10 (C24) as results are already present.
+2021-01-09 04:41:11,583 - INFO - Skipping norad id BEIDOU-3 M11 (C25) as results are already present.
+2021-01-09 04:41:11,587 - INFO - Skipping norad id BEIDOU-3 M12 (C26) as results are already present.
+2021-01-09 04:41:11,589 - INFO - Skipping norad id BEIDOU-3 M13 (C32) as results are already present.
+2021-01-09 04:41:11,592 - INFO - Skipping norad id BEIDOU-3 M14 (C33) as results are already present.
+2021-01-09 04:41:11,594 - INFO - Skipping norad id BEIDOU-3 M15 (C34) as results are already present.
+2021-01-09 04:41:11,595 - INFO - Skipping norad id BEIDOU-3 M16 (C35) as results are already present.
+2021-01-09 04:41:11,597 - INFO - Skipping norad id BEIDOU-3 G1 (C59) as results are already present.
+2021-01-09 04:41:11,599 - INFO - Skipping norad id BEIDOU-3 M17 (C36) as results are already present.
+2021-01-09 04:41:11,600 - INFO - Skipping norad id BEIDOU-3 M18 (C37) as results are already present.
+2021-01-09 04:41:11,602 - INFO - Skipping norad id BEIDOU-3 IGSO-1 (C38) as results are already present.
+2021-01-09 04:41:11,603 - INFO - Skipping norad id BEIDOU-2 G8 as results are already present.
+2021-01-09 04:41:11,605 - INFO - Skipping norad id BEIDOU-3 IGSO-2 (C39) as results are already present.
+2021-01-09 04:41:11,605 - INFO - Skipping norad id BEIDOU-3 M23 (C45) as results are already present.
+2021-01-09 04:41:11,606 - INFO - Skipping norad id BEIDOU-3 M24 (C46) as results are already present.
+2021-01-09 04:41:11,606 - INFO - Skipping norad id BEIDOU-3 IGSO-3 as results are already present.
+2021-01-09 04:41:11,607 - INFO - Skipping norad id BEIDOU-3 M21 as results are already present.
+2021-01-09 04:41:11,607 - INFO - Skipping norad id BEIDOU-3 M22 as results are already present.
+2021-01-09 04:41:11,607 - INFO - Skipping norad id BEIDOU-3 M19 as results are already present.
+2021-01-09 04:41:11,608 - INFO - Skipping norad id BEIDOU-3 M20 as results are already present.
+2021-01-09 04:41:11,608 - INFO - Skipping norad id BEIDOU-3 G2 as results are already present.
+2021-01-09 04:41:11,608 - INFO - Skipping norad id BEIDOU-3 G3 as results are already present.
+2021-01-09 04:41:11,609 - INFO - Skipping norad id GSAT0101 (PRN E11) as results are already present.
+2021-01-09 04:41:11,609 - INFO - Skipping norad id GSAT0102 (PRN E12) as results are already present.
+2021-01-09 04:41:11,609 - INFO - Skipping norad id GSAT0103 (PRN E19) as results are already present.
+2021-01-09 04:41:11,610 - INFO - Skipping norad id GSAT0104 (PRN E20) as results are already present.
+2021-01-09 04:41:11,610 - INFO - Skipping norad id GSAT0201 (PRN E18) as results are already present.
+2021-01-09 04:41:11,611 - INFO - Skipping norad id GSAT0202 (PRN E14) as results are already present.
+2021-01-09 04:41:11,611 - INFO - Skipping norad id GSAT0203 (PRN E26) as results are already present.
+2021-01-09 04:41:11,612 - INFO - Skipping norad id GSAT0204 (PRN E22) as results are already present.
+2021-01-09 04:41:11,612 - INFO - Skipping norad id GSAT0205 (PRN E24) as results are already present.
+2021-01-09 04:41:11,612 - INFO - Skipping norad id GSAT0206 (PRN E30) as results are already present.
+2021-01-09 04:41:11,613 - INFO - Skipping norad id GSAT0209 (PRN E09) as results are already present.
+2021-01-09 04:41:11,613 - INFO - Skipping norad id GSAT0208 (PRN E08) as results are already present.
+2021-01-09 04:41:11,613 - INFO - Skipping norad id GSAT0211 (PRN E02) as results are already present.
+2021-01-09 04:41:11,614 - INFO - Skipping norad id GSAT0210 (PRN E01) as results are already present.
+2021-01-09 04:41:11,614 - INFO - Skipping norad id GSAT0207 (PRN E07) as results are already present.
+2021-01-09 04:41:11,614 - INFO - Skipping norad id GSAT0212 (PRN E03) as results are already present.
+2021-01-09 04:41:11,615 - INFO - Skipping norad id GSAT0213 (PRN E04) as results are already present.
+2021-01-09 04:41:11,615 - INFO - Skipping norad id GSAT0214 (PRN E05) as results are already present.
+2021-01-09 04:41:11,616 - INFO - Skipping norad id GSAT0215 (PRN E21) as results are already present.
+2021-01-09 04:41:11,616 - INFO - Skipping norad id GSAT0216 (PRN E25) as results are already present.
+2021-01-09 04:41:11,616 - INFO - Skipping norad id GSAT0217 (PRN E27) as results are already present.
+2021-01-09 04:41:11,617 - INFO - Skipping norad id GSAT0218 (PRN E31) as results are already present.
+2021-01-09 04:41:11,617 - INFO - Skipping norad id GSAT0221 (PRN E15) as results are already present.
+2021-01-09 04:41:11,617 - INFO - Skipping norad id GSAT0222 (PRN E33) as results are already present.
+2021-01-09 04:41:11,618 - INFO - Skipping norad id GSAT0219 (PRN E36) as results are already present.
+2021-01-09 04:41:11,618 - INFO - Skipping norad id GSAT0220 (PRN E13) as results are already present.
+2021-01-09 04:41:11,618 - INFO - Skipping norad id GPS BIIR-2  (PRN 13) as results are already present.
+2021-01-09 04:41:11,619 - INFO - Skipping norad id GPS BIIR-4  (PRN 20) as results are already present.
+2021-01-09 04:41:11,619 - INFO - Skipping norad id GPS BIIR-5  (PRN 28) as results are already present.
+2021-01-09 04:41:11,619 - INFO - Skipping norad id GPS BIIR-8  (PRN 16) as results are already present.
+2021-01-09 04:41:11,620 - INFO - Skipping norad id GPS BIIR-9  (PRN 21) as results are already present.
+2021-01-09 04:41:11,620 - INFO - Skipping norad id GPS BIIR-10 (PRN 22) as results are already present.
+2021-01-09 04:41:11,620 - INFO - Skipping norad id GPS BIIR-11 (PRN 19) as results are already present.
+2021-01-09 04:41:11,621 - INFO - Skipping norad id GPS BIIR-13 (PRN 02) as results are already present.
+2021-01-09 04:41:11,621 - INFO - Skipping norad id GPS BIIRM-1 (PRN 17) as results are already present.
+2021-01-09 04:41:11,622 - INFO - Skipping norad id GPS BIIRM-2 (PRN 31) as results are already present.
+2021-01-09 04:41:11,622 - INFO - Skipping norad id GPS BIIRM-3 (PRN 12) as results are already present.
+2021-01-09 04:41:11,622 - INFO - Skipping norad id GPS BIIRM-4 (PRN 15) as results are already present.
+2021-01-09 04:41:11,623 - INFO - Skipping norad id GPS BIIRM-5 (PRN 29) as results are already present.
+2021-01-09 04:41:11,623 - INFO - Skipping norad id GPS BIIRM-6 (PRN 07) as results are already present.
+2021-01-09 04:41:11,623 - INFO - Skipping norad id GPS BIIRM-8 (PRN 05) as results are already present.
+2021-01-09 04:41:11,624 - INFO - Skipping norad id GPS BIIF-1  (PRN 25) as results are already present.
+2021-01-09 04:41:11,624 - INFO - Skipping norad id GPS BIIF-2  (PRN 01) as results are already present.
+2021-01-09 04:41:11,625 - INFO - Skipping norad id GPS BIIF-3  (PRN 24) as results are already present.
+2021-01-09 04:41:11,625 - INFO - Skipping norad id GPS BIIF-4  (PRN 27) as results are already present.
+2021-01-09 04:41:11,625 - INFO - Skipping norad id GPS BIIF-5  (PRN 30) as results are already present.
+2021-01-09 04:41:11,626 - INFO - Skipping norad id GPS BIIF-6  (PRN 06) as results are already present.
+2021-01-09 04:41:11,626 - INFO - Skipping norad id GPS BIIF-7  (PRN 09) as results are already present.
+2021-01-09 04:41:11,626 - INFO - Skipping norad id GPS BIIF-8  (PRN 03) as results are already present.
+2021-01-09 04:41:11,627 - INFO - Skipping norad id GPS BIIF-9  (PRN 26) as results are already present.
+2021-01-09 04:41:11,627 - INFO - Skipping norad id GPS BIIF-10 (PRN 08) as results are already present.
+2021-01-09 04:41:11,627 - INFO - Skipping norad id GPS BIIF-11 (PRN 10) as results are already present.
+2021-01-09 04:41:11,628 - INFO - Skipping norad id GPS BIIF-12 (PRN 32) as results are already present.
+2021-01-09 04:41:11,628 - INFO - Skipping norad id GPS BIII-1  (PRN 04) as results are already present.
+2021-01-09 04:41:11,628 - INFO - Skipping norad id GPS BIII-2  (PRN 18) as results are already present.
+2021-01-09 04:41:11,629 - INFO - Skipping norad id GPS BIII-3  (PRN 23) as results are already present.
+2021-01-09 04:41:11,629 - INFO - Skipping norad id BEIDOU 3 (C01) as results are already present.
+2021-01-09 04:41:11,630 - INFO - Skipping norad id BEIDOU 5 (C06) as results are already present.
+2021-01-09 04:41:11,630 - INFO - Skipping norad id BEIDOU 6 (C04) as results are already present.
+2021-01-09 04:41:11,630 - INFO - Skipping norad id BEIDOU 7 (C07) as results are already present.
+2021-01-09 04:41:11,631 - INFO - Skipping norad id BEIDOU 8 (C08) as results are already present.
+2021-01-09 04:41:11,631 - INFO - Skipping norad id BEIDOU 9 (C09) as results are already present.
+2021-01-09 04:41:11,631 - INFO - Skipping norad id BEIDOU 10 (C10) as results are already present.
+2021-01-09 04:41:11,632 - INFO - Skipping norad id BEIDOU 11 (C05) as results are already present.
+2021-01-09 04:41:11,632 - INFO - Skipping norad id BEIDOU 12 (C11) as results are already present.
+2021-01-09 04:41:11,632 - INFO - Skipping norad id BEIDOU 13 (C12) as results are already present.
+2021-01-09 04:41:11,633 - INFO - Skipping norad id BEIDOU 15 (C14) as results are already present.
+2021-01-09 04:41:11,633 - INFO - Skipping norad id BEIDOU 16 (C02) as results are already present.
+2021-01-09 04:41:11,633 - INFO - Skipping norad id BEIDOU 17 (C31) as results are already present.
+2021-01-09 04:41:11,634 - INFO - Skipping norad id BEIDOU 18 (C57) as results are already present.
+2021-01-09 04:41:11,634 - INFO - Skipping norad id BEIDOU 19 (C58) as results are already present.
+2021-01-09 04:41:11,635 - INFO - Skipping norad id BEIDOU 20 (C18) as results are already present.
+2021-01-09 04:41:11,635 - INFO - Skipping norad id BEIDOU IGSO-6 (C13) as results are already present.
+2021-01-09 04:41:11,636 - INFO - Skipping norad id BEIDOU-2 G7 (C03) as results are already present.
+2021-01-09 04:41:11,636 - INFO - Skipping norad id BEIDOU-3 M1 (C19) as results are already present.
+2021-01-09 04:41:11,636 - INFO - Skipping norad id BEIDOU-3 M2 (C20) as results are already present.
+2021-01-09 04:41:11,637 - INFO - Skipping norad id BEIDOU-3 M3 (C27) as results are already present.
+2021-01-09 04:41:11,637 - INFO - Skipping norad id BEIDOU-3 M4 (C28) as results are already present.
+2021-01-09 04:41:11,637 - INFO - Skipping norad id BEIDOU-3 M5 (C21) as results are already present.
+2021-01-09 04:41:11,638 - INFO - Skipping norad id BEIDOU-3 M6 (C22) as results are already present.
+2021-01-09 04:41:11,638 - INFO - Skipping norad id BEIDOU-3 M7 (C29) as results are already present.
+2021-01-09 04:41:11,638 - INFO - Skipping norad id BEIDOU-3 M8 (C30) as results are already present.
+2021-01-09 04:41:11,639 - INFO - Skipping norad id BEIDOU IGSO-7 (C16) as results are already present.
+2021-01-09 04:41:11,639 - INFO - Skipping norad id BEIDOU-3 M9 (C23) as results are already present.
+2021-01-09 04:41:11,639 - INFO - Skipping norad id BEIDOU-3 M10 (C24) as results are already present.
+2021-01-09 04:41:11,640 - INFO - Skipping norad id BEIDOU-3 M11 (C25) as results are already present.
+2021-01-09 04:41:11,640 - INFO - Skipping norad id BEIDOU-3 M12 (C26) as results are already present.
+2021-01-09 04:41:11,640 - INFO - Skipping norad id BEIDOU-3 M13 (C32) as results are already present.
+2021-01-09 04:41:11,641 - INFO - Skipping norad id BEIDOU-3 M14 (C33) as results are already present.
+2021-01-09 04:41:11,641 - INFO - Skipping norad id BEIDOU-3 M15 (C34) as results are already present.
+2021-01-09 04:41:11,641 - INFO - Skipping norad id BEIDOU-3 M16 (C35) as results are already present.
+2021-01-09 04:41:11,642 - INFO - Skipping norad id BEIDOU-3 G1 (C59) as results are already present.
+2021-01-09 04:41:11,642 - INFO - Skipping norad id BEIDOU-3 M17 (C36) as results are already present.
+2021-01-09 04:41:11,643 - INFO - Skipping norad id BEIDOU-3 M18 (C37) as results are already present.
+2021-01-09 04:41:11,643 - INFO - Skipping norad id BEIDOU-3 IGSO-1 (C38) as results are already present.
+2021-01-09 04:41:11,643 - INFO - Skipping norad id BEIDOU-2 G8 as results are already present.
+2021-01-09 04:41:11,644 - INFO - Skipping norad id BEIDOU-3 IGSO-2 (C39) as results are already present.
+2021-01-09 04:41:11,644 - INFO - Skipping norad id BEIDOU-3 M23 (C45) as results are already present.
+2021-01-09 04:41:11,644 - INFO - Skipping norad id BEIDOU-3 M24 (C46) as results are already present.
+2021-01-09 04:41:11,645 - INFO - Skipping norad id BEIDOU-3 IGSO-3 as results are already present.
+2021-01-09 04:41:11,645 - INFO - Skipping norad id BEIDOU-3 M21 as results are already present.
+2021-01-09 04:41:11,646 - INFO - Skipping norad id BEIDOU-3 M22 as results are already present.
+2021-01-09 04:41:11,646 - INFO - Skipping norad id BEIDOU-3 M19 as results are already present.
+2021-01-09 04:41:11,646 - INFO - Skipping norad id BEIDOU-3 M20 as results are already present.
+2021-01-09 04:41:11,647 - INFO - Skipping norad id BEIDOU-3 G2 as results are already present.
+2021-01-09 04:41:11,647 - INFO - Skipping norad id BEIDOU-3 G3 as results are already present.
+2021-01-09 04:41:11,647 - INFO - Skipping norad id GSAT0101 (PRN E11) as results are already present.
+2021-01-09 04:41:11,648 - INFO - Skipping norad id GSAT0102 (PRN E12) as results are already present.
+2021-01-09 04:41:11,648 - INFO - Skipping norad id GSAT0103 (PRN E19) as results are already present.
+2021-01-09 04:41:11,648 - INFO - Skipping norad id GSAT0104 (PRN E20) as results are already present.
+2021-01-09 04:41:11,649 - INFO - Skipping norad id GSAT0201 (PRN E18) as results are already present.
+2021-01-09 04:41:11,649 - INFO - Skipping norad id GSAT0202 (PRN E14) as results are already present.
+2021-01-09 04:41:11,649 - INFO - Skipping norad id GSAT0203 (PRN E26) as results are already present.
+2021-01-09 04:41:11,650 - INFO - Skipping norad id GSAT0204 (PRN E22) as results are already present.
+2021-01-09 04:41:11,650 - INFO - Skipping norad id GSAT0205 (PRN E24) as results are already present.
+2021-01-09 04:41:11,651 - INFO - Skipping norad id GSAT0206 (PRN E30) as results are already present.
+2021-01-09 04:41:11,651 - INFO - Skipping norad id GSAT0209 (PRN E09) as results are already present.
+2021-01-09 04:41:11,651 - INFO - Skipping norad id GSAT0208 (PRN E08) as results are already present.
+2021-01-09 04:41:11,652 - INFO - Skipping norad id GSAT0211 (PRN E02) as results are already present.
+2021-01-09 04:41:11,652 - INFO - Skipping norad id GSAT0210 (PRN E01) as results are already present.
+2021-01-09 04:41:11,652 - INFO - Skipping norad id GSAT0207 (PRN E07) as results are already present.
+2021-01-09 04:41:11,653 - INFO - Skipping norad id GSAT0212 (PRN E03) as results are already present.
+2021-01-09 04:41:11,653 - INFO - Skipping norad id GSAT0213 (PRN E04) as results are already present.
+2021-01-09 04:41:11,653 - INFO - Skipping norad id GSAT0214 (PRN E05) as results are already present.
+2021-01-09 04:41:11,654 - INFO - Skipping norad id GSAT0215 (PRN E21) as results are already present.
+2021-01-09 04:41:11,654 - INFO - Skipping norad id GSAT0216 (PRN E25) as results are already present.
+2021-01-09 04:41:11,655 - INFO - Skipping norad id GSAT0217 (PRN E27) as results are already present.
+2021-01-09 04:41:11,655 - INFO - Skipping norad id GSAT0218 (PRN E31) as results are already present.
+2021-01-09 04:41:11,655 - INFO - Skipping norad id GSAT0221 (PRN E15) as results are already present.
+2021-01-09 04:41:11,656 - INFO - Skipping norad id GSAT0222 (PRN E33) as results are already present.
+2021-01-09 04:41:11,656 - INFO - Skipping norad id GSAT0219 (PRN E36) as results are already present.
+2021-01-09 04:41:11,656 - INFO - Skipping norad id GSAT0220 (PRN E13) as results are already present.
+2021-01-09 04:41:11,657 - INFO - Skipping norad id GPS BIIR-2  (PRN 13) as results are already present.
+2021-01-09 04:41:11,657 - INFO - Skipping norad id GPS BIIR-4  (PRN 20) as results are already present.
+2021-01-09 04:41:11,657 - INFO - Skipping norad id GPS BIIR-5  (PRN 28) as results are already present.
+2021-01-09 04:41:11,658 - INFO - Skipping norad id GPS BIIR-8  (PRN 16) as results are already present.
+2021-01-09 04:41:11,658 - INFO - Skipping norad id GPS BIIR-9  (PRN 21) as results are already present.
+2021-01-09 04:41:11,658 - INFO - Skipping norad id GPS BIIR-10 (PRN 22) as results are already present.
+2021-01-09 04:41:11,659 - INFO - Skipping norad id GPS BIIR-11 (PRN 19) as results are already present.
+2021-01-09 04:41:11,659 - INFO - Skipping norad id GPS BIIR-13 (PRN 02) as results are already present.
+2021-01-09 04:41:11,659 - INFO - Skipping norad id GPS BIIRM-1 (PRN 17) as results are already present.
+2021-01-09 04:41:11,660 - INFO - Skipping norad id GPS BIIRM-2 (PRN 31) as results are already present.
+2021-01-09 04:41:11,660 - INFO - Skipping norad id GPS BIIRM-3 (PRN 12) as results are already present.
+2021-01-09 04:41:11,660 - INFO - Skipping norad id GPS BIIRM-4 (PRN 15) as results are already present.
+2021-01-09 04:41:11,661 - INFO - Skipping norad id GPS BIIRM-5 (PRN 29) as results are already present.
+2021-01-09 04:41:11,661 - INFO - Skipping norad id GPS BIIRM-6 (PRN 07) as results are already present.
+2021-01-09 04:41:11,661 - INFO - Skipping norad id GPS BIIRM-8 (PRN 05) as results are already present.
+2021-01-09 04:41:11,662 - INFO - Skipping norad id GPS BIIF-1  (PRN 25) as results are already present.
+2021-01-09 04:41:11,662 - INFO - Skipping norad id GPS BIIF-2  (PRN 01) as results are already present.
+2021-01-09 04:41:11,662 - INFO - Skipping norad id GPS BIIF-3  (PRN 24) as results are already present.
+2021-01-09 04:41:11,663 - INFO - Skipping norad id GPS BIIF-4  (PRN 27) as results are already present.
+2021-01-09 04:41:11,663 - INFO - Skipping norad id GPS BIIF-5  (PRN 30) as results are already present.
+2021-01-09 04:41:11,663 - INFO - Skipping norad id GPS BIIF-6  (PRN 06) as results are already present.
+2021-01-09 04:41:11,664 - INFO - Skipping norad id GPS BIIF-7  (PRN 09) as results are already present.
+2021-01-09 04:41:11,664 - INFO - Skipping norad id GPS BIIF-8  (PRN 03) as results are already present.
+2021-01-09 04:41:11,664 - INFO - Skipping norad id GPS BIIF-9  (PRN 26) as results are already present.
+2021-01-09 04:41:11,665 - INFO - Skipping norad id GPS BIIF-10 (PRN 08) as results are already present.
+2021-01-09 04:41:11,665 - INFO - Skipping norad id GPS BIIF-11 (PRN 10) as results are already present.
+2021-01-09 04:41:11,666 - INFO - Skipping norad id GPS BIIF-12 (PRN 32) as results are already present.
+2021-01-09 04:41:11,666 - INFO - Skipping norad id GPS BIII-1  (PRN 04) as results are already present.
+2021-01-09 04:41:11,666 - INFO - Skipping norad id GPS BIII-2  (PRN 18) as results are already present.
+2021-01-09 04:41:11,667 - INFO - Skipping norad id GPS BIII-3  (PRN 23) as results are already present.
+2021-01-09 04:41:11,667 - INFO - Skipping norad id BEIDOU 3 (C01) as results are already present.
+2021-01-09 04:41:11,667 - INFO - Skipping norad id BEIDOU 5 (C06) as results are already present.
+2021-01-09 04:41:11,668 - INFO - Skipping norad id BEIDOU 6 (C04) as results are already present.
+2021-01-09 04:41:11,668 - INFO - Skipping norad id BEIDOU 7 (C07) as results are already present.
+2021-01-09 04:41:11,668 - INFO - Skipping norad id BEIDOU 8 (C08) as results are already present.
+2021-01-09 04:41:11,669 - INFO - Skipping norad id BEIDOU 9 (C09) as results are already present.
+2021-01-09 04:41:11,669 - INFO - Skipping norad id BEIDOU 10 (C10) as results are already present.
+2021-01-09 04:41:11,669 - INFO - Skipping norad id BEIDOU 11 (C05) as results are already present.
+2021-01-09 04:41:11,670 - INFO - Skipping norad id BEIDOU 12 (C11) as results are already present.
+2021-01-09 04:41:11,670 - INFO - Skipping norad id BEIDOU 13 (C12) as results are already present.
+2021-01-09 04:41:11,671 - INFO - Skipping norad id BEIDOU 15 (C14) as results are already present.
+2021-01-09 04:41:11,671 - INFO - Skipping norad id BEIDOU 16 (C02) as results are already present.
+2021-01-09 04:41:11,671 - INFO - Skipping norad id BEIDOU 17 (C31) as results are already present.
+2021-01-09 04:41:11,672 - INFO - Skipping norad id BEIDOU 18 (C57) as results are already present.
+2021-01-09 04:41:11,672 - INFO - Skipping norad id BEIDOU 19 (C58) as results are already present.
+2021-01-09 04:41:11,673 - INFO - Skipping norad id BEIDOU 20 (C18) as results are already present.
+2021-01-09 04:41:11,673 - INFO - Skipping norad id BEIDOU IGSO-6 (C13) as results are already present.
+2021-01-09 04:41:11,673 - INFO - Skipping norad id BEIDOU-2 G7 (C03) as results are already present.
+2021-01-09 04:41:11,674 - INFO - Skipping norad id BEIDOU-3 M1 (C19) as results are already present.
+2021-01-09 04:41:11,674 - INFO - Skipping norad id BEIDOU-3 M2 (C20) as results are already present.
+2021-01-09 04:41:11,674 - INFO - Skipping norad id BEIDOU-3 M3 (C27) as results are already present.
+2021-01-09 04:41:11,675 - INFO - Skipping norad id BEIDOU-3 M4 (C28) as results are already present.
+2021-01-09 04:41:11,675 - INFO - Skipping norad id BEIDOU-3 M5 (C21) as results are already present.
+2021-01-09 04:41:11,676 - INFO - Skipping norad id BEIDOU-3 M6 (C22) as results are already present.
+2021-01-09 04:41:11,676 - INFO - Skipping norad id BEIDOU-3 M7 (C29) as results are already present.
+2021-01-09 04:41:11,676 - INFO - Skipping norad id BEIDOU-3 M8 (C30) as results are already present.
+2021-01-09 04:41:11,677 - INFO - Skipping norad id BEIDOU IGSO-7 (C16) as results are already present.
+2021-01-09 04:41:11,677 - INFO - Skipping norad id BEIDOU-3 M9 (C23) as results are already present.
+2021-01-09 04:41:11,678 - INFO - Skipping norad id BEIDOU-3 M10 (C24) as results are already present.
+2021-01-09 04:41:11,678 - INFO - Skipping norad id BEIDOU-3 M11 (C25) as results are already present.
+2021-01-09 04:41:11,678 - INFO - Skipping norad id BEIDOU-3 M12 (C26) as results are already present.
+2021-01-09 04:41:11,679 - INFO - Skipping norad id BEIDOU-3 M13 (C32) as results are already present.
+2021-01-09 04:41:11,679 - INFO - Skipping norad id BEIDOU-3 M14 (C33) as results are already present.
+2021-01-09 04:41:11,679 - INFO - Skipping norad id BEIDOU-3 M15 (C34) as results are already present.
+2021-01-09 04:41:11,680 - INFO - Skipping norad id BEIDOU-3 M16 (C35) as results are already present.
+2021-01-09 04:41:11,680 - INFO - Skipping norad id BEIDOU-3 G1 (C59) as results are already present.
+2021-01-09 04:41:11,681 - INFO - Skipping norad id BEIDOU-3 M17 (C36) as results are already present.
+2021-01-09 04:41:11,681 - INFO - Skipping norad id BEIDOU-3 M18 (C37) as results are already present.
+2021-01-09 04:41:11,681 - INFO - Skipping norad id BEIDOU-3 IGSO-1 (C38) as results are already present.
+2021-01-09 04:41:11,682 - INFO - Skipping norad id BEIDOU-2 G8 as results are already present.
+2021-01-09 04:41:11,682 - INFO - Skipping norad id BEIDOU-3 IGSO-2 (C39) as results are already present.
+2021-01-09 04:41:11,682 - INFO - Skipping norad id BEIDOU-3 M23 (C45) as results are already present.
+2021-01-09 04:41:11,683 - INFO - Skipping norad id BEIDOU-3 M24 (C46) as results are already present.
+2021-01-09 04:41:11,683 - INFO - Skipping norad id BEIDOU-3 IGSO-3 as results are already present.
+2021-01-09 04:41:11,684 - INFO - Skipping norad id BEIDOU-3 M21 as results are already present.
+2021-01-09 04:41:11,684 - INFO - Skipping norad id BEIDOU-3 M22 as results are already present.
+2021-01-09 04:41:11,684 - INFO - Skipping norad id BEIDOU-3 M19 as results are already present.
+2021-01-09 04:41:11,685 - INFO - Skipping norad id BEIDOU-3 M20 as results are already present.
+2021-01-09 04:41:11,685 - INFO - Skipping norad id BEIDOU-3 G2 as results are already present.
+2021-01-09 04:41:11,686 - INFO - Skipping norad id BEIDOU-3 G3 as results are already present.
+2021-01-09 04:41:11,686 - INFO - Skipping norad id GSAT0101 (PRN E11) as results are already present.
+2021-01-09 04:41:11,686 - INFO - Skipping norad id GSAT0102 (PRN E12) as results are already present.
+2021-01-09 04:41:11,687 - INFO - Skipping norad id GSAT0103 (PRN E19) as results are already present.
+2021-01-09 04:41:11,687 - INFO - Skipping norad id GSAT0104 (PRN E20) as results are already present.
+2021-01-09 04:41:11,687 - INFO - Skipping norad id GSAT0201 (PRN E18) as results are already present.
+2021-01-09 04:41:11,688 - INFO - Skipping norad id GSAT0202 (PRN E14) as results are already present.
+2021-01-09 04:41:11,688 - INFO - Skipping norad id GSAT0203 (PRN E26) as results are already present.
+2021-01-09 04:41:11,689 - INFO - Skipping norad id GSAT0204 (PRN E22) as results are already present.
+2021-01-09 04:41:11,689 - INFO - Skipping norad id GSAT0205 (PRN E24) as results are already present.
+2021-01-09 04:41:11,689 - INFO - Skipping norad id GSAT0206 (PRN E30) as results are already present.
+2021-01-09 04:41:11,690 - INFO - Skipping norad id GSAT0209 (PRN E09) as results are already present.
+2021-01-09 04:41:11,690 - INFO - Skipping norad id GSAT0208 (PRN E08) as results are already present.
+2021-01-09 04:41:11,691 - INFO - Skipping norad id GSAT0211 (PRN E02) as results are already present.
+2021-01-09 04:41:11,691 - INFO - Skipping norad id GSAT0210 (PRN E01) as results are already present.
+2021-01-09 04:41:11,691 - INFO - Skipping norad id GSAT0207 (PRN E07) as results are already present.
+2021-01-09 04:41:11,692 - INFO - Skipping norad id GSAT0212 (PRN E03) as results are already present.
+2021-01-09 04:41:11,692 - INFO - Skipping norad id GSAT0213 (PRN E04) as results are already present.
+2021-01-09 04:41:11,693 - INFO - Skipping norad id GSAT0214 (PRN E05) as results are already present.
+2021-01-09 04:41:11,693 - INFO - Skipping norad id GSAT0215 (PRN E21) as results are already present.
+2021-01-09 04:41:11,693 - INFO - Skipping norad id GSAT0216 (PRN E25) as results are already present.
+2021-01-09 04:41:11,694 - INFO - Skipping norad id GSAT0217 (PRN E27) as results are already present.
+2021-01-09 04:41:11,694 - INFO - Skipping norad id GSAT0218 (PRN E31) as results are already present.
+2021-01-09 04:41:11,695 - INFO - Skipping norad id GSAT0221 (PRN E15) as results are already present.
+2021-01-09 04:41:11,695 - INFO - Skipping norad id GSAT0222 (PRN E33) as results are already present.
+2021-01-09 04:41:11,695 - INFO - Skipping norad id GSAT0219 (PRN E36) as results are already present.
+2021-01-09 04:41:11,696 - INFO - Skipping norad id GSAT0220 (PRN E13) as results are already present.
+2021-01-09 04:41:11,696 - INFO - Skipping norad id GPS BIIR-2  (PRN 13) as results are already present.
+2021-01-09 04:41:11,696 - INFO - Skipping norad id GPS BIIR-4  (PRN 20) as results are already present.
+2021-01-09 04:41:11,697 - INFO - Skipping norad id GPS BIIR-5  (PRN 28) as results are already present.
+2021-01-09 04:41:11,697 - INFO - Skipping norad id GPS BIIR-8  (PRN 16) as results are already present.
+2021-01-09 04:41:11,698 - INFO - Skipping norad id GPS BIIR-9  (PRN 21) as results are already present.
+2021-01-09 04:41:11,698 - INFO - Skipping norad id GPS BIIR-10 (PRN 22) as results are already present.
+2021-01-09 04:41:11,698 - INFO - Skipping norad id GPS BIIR-11 (PRN 19) as results are already present.
+2021-01-09 04:41:11,699 - INFO - Skipping norad id GPS BIIR-13 (PRN 02) as results are already present.
+2021-01-09 04:41:11,699 - INFO - Skipping norad id GPS BIIRM-1 (PRN 17) as results are already present.
+2021-01-09 04:41:11,700 - INFO - Skipping norad id GPS BIIRM-2 (PRN 31) as results are already present.
+2021-01-09 04:41:11,700 - INFO - Skipping norad id GPS BIIRM-3 (PRN 12) as results are already present.
+2021-01-09 04:41:11,700 - INFO - Skipping norad id GPS BIIRM-4 (PRN 15) as results are already present.
+2021-01-09 04:41:11,701 - INFO - Skipping norad id GPS BIIRM-5 (PRN 29) as results are already present.
+2021-01-09 04:41:11,701 - INFO - Skipping norad id GPS BIIRM-6 (PRN 07) as results are already present.
+2021-01-09 04:41:11,702 - INFO - Skipping norad id GPS BIIRM-8 (PRN 05) as results are already present.
+2021-01-09 04:41:11,702 - INFO - Skipping norad id GPS BIIF-1  (PRN 25) as results are already present.
+2021-01-09 04:41:11,702 - INFO - Skipping norad id GPS BIIF-2  (PRN 01) as results are already present.
+2021-01-09 04:41:11,703 - INFO - Skipping norad id GPS BIIF-3  (PRN 24) as results are already present.
+2021-01-09 04:41:11,703 - INFO - Skipping norad id GPS BIIF-4  (PRN 27) as results are already present.
+2021-01-09 04:41:11,704 - INFO - Skipping norad id GPS BIIF-5  (PRN 30) as results are already present.
+2021-01-09 04:41:11,704 - INFO - Skipping norad id GPS BIIF-6  (PRN 06) as results are already present.
+2021-01-09 04:41:11,704 - INFO - Skipping norad id GPS BIIF-7  (PRN 09) as results are already present.
+2021-01-09 04:41:11,705 - INFO - Skipping norad id GPS BIIF-8  (PRN 03) as results are already present.
+2021-01-09 04:41:11,705 - INFO - Skipping norad id GPS BIIF-9  (PRN 26) as results are already present.
+2021-01-09 04:41:11,705 - INFO - Skipping norad id GPS BIIF-10 (PRN 08) as results are already present.
+2021-01-09 04:41:11,706 - INFO - Skipping norad id GPS BIIF-11 (PRN 10) as results are already present.
+2021-01-09 04:41:11,706 - INFO - Skipping norad id GPS BIIF-12 (PRN 32) as results are already present.
+2021-01-09 04:41:11,707 - INFO - Skipping norad id GPS BIII-1  (PRN 04) as results are already present.
+2021-01-09 04:41:11,707 - INFO - Skipping norad id GPS BIII-2  (PRN 18) as results are already present.
+2021-01-09 04:41:11,707 - INFO - Skipping norad id GPS BIII-3  (PRN 23) as results are already present.
+2021-01-09 04:41:11,708 - INFO - Skipping norad id BEIDOU 3 (C01) as results are already present.
+2021-01-09 04:41:11,708 - INFO - Skipping norad id BEIDOU 5 (C06) as results are already present.
+2021-01-09 04:41:11,709 - INFO - Skipping norad id BEIDOU 6 (C04) as results are already present.
+2021-01-09 04:41:11,709 - INFO - Skipping norad id BEIDOU 7 (C07) as results are already present.
+2021-01-09 04:41:11,709 - INFO - Skipping norad id BEIDOU 8 (C08) as results are already present.
+2021-01-09 04:41:11,710 - INFO - Skipping norad id BEIDOU 9 (C09) as results are already present.
+2021-01-09 04:41:11,710 - INFO - Skipping norad id BEIDOU 10 (C10) as results are already present.
+2021-01-09 04:41:11,710 - INFO - Skipping norad id BEIDOU 11 (C05) as results are already present.
+2021-01-09 04:41:11,711 - INFO - Skipping norad id BEIDOU 12 (C11) as results are already present.
+2021-01-09 04:41:11,711 - INFO - Skipping norad id BEIDOU 13 (C12) as results are already present.
+2021-01-09 04:41:11,712 - INFO - Skipping norad id BEIDOU 15 (C14) as results are already present.
+2021-01-09 04:41:11,712 - INFO - Skipping norad id BEIDOU 16 (C02) as results are already present.
+2021-01-09 04:41:11,712 - INFO - Skipping norad id BEIDOU 17 (C31) as results are already present.
+2021-01-09 04:41:11,713 - INFO - Skipping norad id BEIDOU 18 (C57) as results are already present.
+2021-01-09 04:41:11,713 - INFO - Skipping norad id BEIDOU 19 (C58) as results are already present.
+2021-01-09 04:41:11,714 - INFO - Skipping norad id BEIDOU 20 (C18) as results are already present.
+2021-01-09 04:41:11,714 - INFO - Skipping norad id BEIDOU IGSO-6 (C13) as results are already present.
+2021-01-09 04:41:11,714 - INFO - Skipping norad id BEIDOU-2 G7 (C03) as results are already present.
+2021-01-09 04:41:11,715 - INFO - Skipping norad id BEIDOU-3 M1 (C19) as results are already present.
+2021-01-09 04:41:11,715 - INFO - Skipping norad id BEIDOU-3 M2 (C20) as results are already present.
+2021-01-09 04:41:11,715 - INFO - Skipping norad id BEIDOU-3 M3 (C27) as results are already present.
+2021-01-09 04:41:11,716 - INFO - Skipping norad id BEIDOU-3 M4 (C28) as results are already present.
+2021-01-09 04:41:11,716 - INFO - Skipping norad id BEIDOU-3 M5 (C21) as results are already present.
+2021-01-09 04:41:11,717 - INFO - Skipping norad id BEIDOU-3 M6 (C22) as results are already present.
+2021-01-09 04:41:11,717 - INFO - Skipping norad id BEIDOU-3 M7 (C29) as results are already present.
+2021-01-09 04:41:11,717 - INFO - Skipping norad id BEIDOU-3 M8 (C30) as results are already present.
+2021-01-09 04:41:11,718 - INFO - Skipping norad id BEIDOU IGSO-7 (C16) as results are already present.
+2021-01-09 04:41:11,718 - INFO - Skipping norad id BEIDOU-3 M9 (C23) as results are already present.
+2021-01-09 04:41:11,718 - INFO - Skipping norad id BEIDOU-3 M10 (C24) as results are already present.
+2021-01-09 04:41:11,719 - INFO - Skipping norad id BEIDOU-3 M11 (C25) as results are already present.
+2021-01-09 04:41:11,719 - INFO - Skipping norad id BEIDOU-3 M12 (C26) as results are already present.
+2021-01-09 04:41:11,720 - INFO - Skipping norad id BEIDOU-3 M13 (C32) as results are already present.
+2021-01-09 04:41:11,720 - INFO - Skipping norad id BEIDOU-3 M14 (C33) as results are already present.
+2021-01-09 04:41:11,720 - INFO - Skipping norad id BEIDOU-3 M15 (C34) as results are already present.
+2021-01-09 04:41:11,721 - INFO - Skipping norad id BEIDOU-3 M16 (C35) as results are already present.
+2021-01-09 04:41:11,721 - INFO - Skipping norad id BEIDOU-3 G1 (C59) as results are already present.
+2021-01-09 04:41:11,721 - INFO - Skipping norad id BEIDOU-3 M17 (C36) as results are already present.
+2021-01-09 04:41:11,722 - INFO - Skipping norad id BEIDOU-3 M18 (C37) as results are already present.
+2021-01-09 04:41:11,722 - INFO - Skipping norad id BEIDOU-3 IGSO-1 (C38) as results are already present.
+2021-01-09 04:41:11,723 - INFO - Skipping norad id BEIDOU-2 G8 as results are already present.
+2021-01-09 04:41:11,723 - INFO - Skipping norad id BEIDOU-3 IGSO-2 (C39) as results are already present.
+2021-01-09 04:41:11,723 - INFO - Skipping norad id BEIDOU-3 M23 (C45) as results are already present.
+2021-01-09 04:41:11,724 - INFO - Skipping norad id BEIDOU-3 M24 (C46) as results are already present.
+2021-01-09 04:41:11,724 - INFO - Skipping norad id BEIDOU-3 IGSO-3 as results are already present.
+2021-01-09 04:41:11,725 - INFO - Skipping norad id BEIDOU-3 M21 as results are already present.
+2021-01-09 04:41:11,725 - INFO - Skipping norad id BEIDOU-3 M22 as results are already present.
+2021-01-09 04:41:11,725 - INFO - Skipping norad id BEIDOU-3 M19 as results are already present.
+2021-01-09 04:41:11,726 - INFO - Skipping norad id BEIDOU-3 M20 as results are already present.
+2021-01-09 04:41:11,726 - INFO - Skipping norad id BEIDOU-3 G2 as results are already present.
+2021-01-09 04:41:11,727 - INFO - Skipping norad id BEIDOU-3 G3 as results are already present.
+2021-01-09 09:09:54,272 - INFO - Downloading all TLE celestrak files
+2021-01-09 09:09:54,275 - INFO - Starting download for galileo.
+2021-01-09 09:09:55,414 - INFO - Starting download for gps-ops.
+2021-01-09 09:09:56,157 - INFO - Starting download for glo-ops.
+2021-01-09 09:09:57,015 - INFO - Starting download for beidou.
+2021-01-09 09:09:58,590 - INFO - Loading IGS stations
+2021-01-09 09:10:11,660 - INFO - Loading TLEs from Celestrak
+2021-01-09 09:10:24,383 - INFO - Calculating results for all norad ids between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 09:10:24,485 - INFO - Getting stations in view along the track for GSAT0101 (PRN E11) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 09:10:24,493 - INFO - Getting all positions for GSAT0101 (PRN E11) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 09:10:32,752 - INFO - Positions calculated!
+2021-01-09 09:10:32,753 - INFO - Calculating stations in view for GSAT0101 (PRN E11)...
+2021-01-09 09:13:45,559 - INFO - Getting stations in view along the track for GSAT0102 (PRN E12) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 09:13:45,559 - INFO - Getting all positions for GSAT0102 (PRN E12) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 09:13:53,212 - INFO - Positions calculated!
+2021-01-09 09:13:53,213 - INFO - Calculating stations in view for GSAT0102 (PRN E12)...
+2021-01-09 09:17:24,819 - INFO - Getting stations in view along the track for GSAT0103 (PRN E19) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 09:17:24,820 - INFO - Getting all positions for GSAT0103 (PRN E19) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 09:17:32,420 - INFO - Positions calculated!
+2021-01-09 09:17:32,421 - INFO - Calculating stations in view for GSAT0103 (PRN E19)...
+2021-01-09 09:21:02,476 - INFO - Getting stations in view along the track for GSAT0104 (PRN E20) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 09:21:02,476 - INFO - Getting all positions for GSAT0104 (PRN E20) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 09:21:10,548 - INFO - Positions calculated!
+2021-01-09 09:21:10,548 - INFO - Calculating stations in view for GSAT0104 (PRN E20)...
+2021-01-09 09:24:49,772 - INFO - Getting stations in view along the track for GSAT0201 (PRN E18) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 09:24:49,773 - INFO - Getting all positions for GSAT0201 (PRN E18) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 09:24:58,252 - INFO - Positions calculated!
+2021-01-09 09:24:58,252 - INFO - Calculating stations in view for GSAT0201 (PRN E18)...
+2021-01-09 10:50:05,476 - INFO - Getting stations in view along the track for GSAT0202 (PRN E14) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 10:50:05,476 - INFO - Getting all positions for GSAT0202 (PRN E14) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 10:50:13,307 - INFO - Positions calculated!
+2021-01-09 10:50:13,308 - INFO - Calculating stations in view for GSAT0202 (PRN E14)...
+2021-01-09 13:32:53,086 - INFO - Getting stations in view along the track for GSAT0203 (PRN E26) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 13:32:53,087 - INFO - Getting all positions for GSAT0203 (PRN E26) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 13:33:00,626 - INFO - Positions calculated!
+2021-01-09 13:33:00,627 - INFO - Calculating stations in view for GSAT0203 (PRN E26)...
+2021-01-09 14:31:32,614 - INFO - Getting stations in view along the track for GSAT0204 (PRN E22) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 14:31:32,614 - INFO - Getting all positions for GSAT0204 (PRN E22) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 14:31:41,651 - INFO - Positions calculated!
+2021-01-09 14:31:41,652 - INFO - Calculating stations in view for GSAT0204 (PRN E22)...
+2021-01-09 14:35:08,808 - INFO - Getting stations in view along the track for GSAT0205 (PRN E24) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 14:35:08,808 - INFO - Getting all positions for GSAT0205 (PRN E24) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 14:35:16,280 - INFO - Positions calculated!
+2021-01-09 14:35:16,280 - INFO - Calculating stations in view for GSAT0205 (PRN E24)...
+2021-01-09 14:38:16,996 - INFO - Getting stations in view along the track for GSAT0206 (PRN E30) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 14:38:16,996 - INFO - Getting all positions for GSAT0206 (PRN E30) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 14:38:24,480 - INFO - Positions calculated!
+2021-01-09 14:38:24,480 - INFO - Calculating stations in view for GSAT0206 (PRN E30)...
+2021-01-09 14:41:25,358 - INFO - Getting stations in view along the track for GSAT0209 (PRN E09) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 14:41:25,358 - INFO - Getting all positions for GSAT0209 (PRN E09) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 14:41:32,816 - INFO - Positions calculated!
+2021-01-09 14:41:32,817 - INFO - Calculating stations in view for GSAT0209 (PRN E09)...
+2021-01-09 14:44:35,063 - INFO - Getting stations in view along the track for GSAT0208 (PRN E08) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 14:44:35,063 - INFO - Getting all positions for GSAT0208 (PRN E08) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 14:44:42,585 - INFO - Positions calculated!
+2021-01-09 14:44:42,586 - INFO - Calculating stations in view for GSAT0208 (PRN E08)...
+2021-01-09 14:47:46,085 - INFO - Getting stations in view along the track for GSAT0211 (PRN E02) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 14:47:46,085 - INFO - Getting all positions for GSAT0211 (PRN E02) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 14:47:53,549 - INFO - Positions calculated!
+2021-01-09 14:47:53,554 - INFO - Calculating stations in view for GSAT0211 (PRN E02)...
+2021-01-09 14:50:55,367 - INFO - Getting stations in view along the track for GSAT0210 (PRN E01) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 14:50:55,367 - INFO - Getting all positions for GSAT0210 (PRN E01) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 14:51:02,844 - INFO - Positions calculated!
+2021-01-09 14:51:02,844 - INFO - Calculating stations in view for GSAT0210 (PRN E01)...
+2021-01-09 14:54:04,188 - INFO - Getting stations in view along the track for GSAT0207 (PRN E07) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 14:54:04,188 - INFO - Getting all positions for GSAT0207 (PRN E07) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 14:54:11,678 - INFO - Positions calculated!
+2021-01-09 14:54:11,681 - INFO - Calculating stations in view for GSAT0207 (PRN E07)...
+2021-01-09 14:57:22,699 - INFO - Getting stations in view along the track for GSAT0212 (PRN E03) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 14:57:22,699 - INFO - Getting all positions for GSAT0212 (PRN E03) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 14:57:31,055 - INFO - Positions calculated!
+2021-01-09 14:57:31,056 - INFO - Calculating stations in view for GSAT0212 (PRN E03)...
+2021-01-09 15:01:30,131 - INFO - Getting stations in view along the track for GSAT0213 (PRN E04) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 15:01:30,136 - INFO - Getting all positions for GSAT0213 (PRN E04) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 15:01:40,768 - INFO - Positions calculated!
+2021-01-09 15:01:40,770 - INFO - Calculating stations in view for GSAT0213 (PRN E04)...
+2021-01-09 15:05:32,839 - INFO - Getting stations in view along the track for GSAT0214 (PRN E05) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 15:05:32,841 - INFO - Getting all positions for GSAT0214 (PRN E05) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 15:05:40,592 - INFO - Positions calculated!
+2021-01-09 15:05:40,593 - INFO - Calculating stations in view for GSAT0214 (PRN E05)...
+2021-01-09 15:09:34,884 - INFO - Getting stations in view along the track for GSAT0215 (PRN E21) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 15:09:34,888 - INFO - Getting all positions for GSAT0215 (PRN E21) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 15:09:46,099 - INFO - Positions calculated!
+2021-01-09 15:09:46,100 - INFO - Calculating stations in view for GSAT0215 (PRN E21)...
+2021-01-09 15:13:39,277 - INFO - Getting stations in view along the track for GSAT0216 (PRN E25) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 15:13:39,278 - INFO - Getting all positions for GSAT0216 (PRN E25) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 15:13:47,392 - INFO - Positions calculated!
+2021-01-09 15:13:47,393 - INFO - Calculating stations in view for GSAT0216 (PRN E25)...
+2021-01-09 15:18:00,877 - INFO - Getting stations in view along the track for GSAT0217 (PRN E27) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 15:18:00,879 - INFO - Getting all positions for GSAT0217 (PRN E27) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 15:18:09,940 - INFO - Positions calculated!
+2021-01-09 15:18:09,940 - INFO - Calculating stations in view for GSAT0217 (PRN E27)...
+2021-01-09 15:21:59,588 - INFO - Getting stations in view along the track for GSAT0218 (PRN E31) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 15:21:59,588 - INFO - Getting all positions for GSAT0218 (PRN E31) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 15:22:08,782 - INFO - Positions calculated!
+2021-01-09 15:22:08,785 - INFO - Calculating stations in view for GSAT0218 (PRN E31)...
+2021-01-09 15:26:08,657 - INFO - Getting stations in view along the track for GSAT0221 (PRN E15) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 15:26:08,658 - INFO - Getting all positions for GSAT0221 (PRN E15) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 15:26:17,500 - INFO - Positions calculated!
+2021-01-09 15:26:17,500 - INFO - Calculating stations in view for GSAT0221 (PRN E15)...
+2021-01-09 15:30:33,942 - INFO - Getting stations in view along the track for GSAT0222 (PRN E33) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 15:30:33,943 - INFO - Getting all positions for GSAT0222 (PRN E33) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 15:30:42,318 - INFO - Positions calculated!
+2021-01-09 15:30:42,318 - INFO - Calculating stations in view for GSAT0222 (PRN E33)...
+2021-01-09 15:34:15,719 - INFO - Getting stations in view along the track for GSAT0219 (PRN E36) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 15:34:15,720 - INFO - Getting all positions for GSAT0219 (PRN E36) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 15:34:24,950 - INFO - Positions calculated!
+2021-01-09 15:34:24,951 - INFO - Calculating stations in view for GSAT0219 (PRN E36)...
+2021-01-09 15:38:29,819 - INFO - Getting stations in view along the track for GSAT0220 (PRN E13) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 15:38:29,825 - INFO - Getting all positions for GSAT0220 (PRN E13) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 15:38:41,220 - INFO - Positions calculated!
+2021-01-09 15:38:41,222 - INFO - Calculating stations in view for GSAT0220 (PRN E13)...
+2021-01-09 15:43:42,991 - INFO - Getting stations in view along the track for GPS BIIR-2  (PRN 13) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 15:43:42,993 - INFO - Getting all positions for GPS BIIR-2  (PRN 13) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 15:43:51,494 - INFO - Positions calculated!
+2021-01-09 15:43:51,494 - INFO - Calculating stations in view for GPS BIIR-2  (PRN 13)...
+2021-01-09 15:48:06,343 - INFO - Getting stations in view along the track for GPS BIIR-4  (PRN 20) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 15:48:06,344 - INFO - Getting all positions for GPS BIIR-4  (PRN 20) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 15:48:14,680 - INFO - Positions calculated!
+2021-01-09 15:48:14,683 - INFO - Calculating stations in view for GPS BIIR-4  (PRN 20)...
+2021-01-09 15:53:02,442 - INFO - Getting stations in view along the track for GPS BIIR-5  (PRN 28) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 15:53:02,443 - INFO - Getting all positions for GPS BIIR-5  (PRN 28) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 15:53:11,941 - INFO - Positions calculated!
+2021-01-09 15:53:11,942 - INFO - Calculating stations in view for GPS BIIR-5  (PRN 28)...
+2021-01-09 15:57:14,150 - INFO - Getting stations in view along the track for GPS BIIR-8  (PRN 16) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 15:57:14,151 - INFO - Getting all positions for GPS BIIR-8  (PRN 16) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 15:57:23,148 - INFO - Positions calculated!
+2021-01-09 15:57:23,149 - INFO - Calculating stations in view for GPS BIIR-8  (PRN 16)...
+2021-01-09 16:00:33,926 - INFO - Getting stations in view along the track for GPS BIIR-9  (PRN 21) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 16:00:33,926 - INFO - Getting all positions for GPS BIIR-9  (PRN 21) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 16:00:41,476 - INFO - Positions calculated!
+2021-01-09 16:00:41,476 - INFO - Calculating stations in view for GPS BIIR-9  (PRN 21)...
+2021-01-09 16:04:40,722 - INFO - Getting stations in view along the track for GPS BIIR-10 (PRN 22) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 16:04:40,725 - INFO - Getting all positions for GPS BIIR-10 (PRN 22) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 16:04:50,540 - INFO - Positions calculated!
+2021-01-09 16:04:50,541 - INFO - Calculating stations in view for GPS BIIR-10 (PRN 22)...
+2021-01-09 16:09:45,001 - INFO - Getting stations in view along the track for GPS BIIR-11 (PRN 19) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 16:09:45,003 - INFO - Getting all positions for GPS BIIR-11 (PRN 19) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 16:09:53,947 - INFO - Positions calculated!
+2021-01-09 16:09:53,947 - INFO - Calculating stations in view for GPS BIIR-11 (PRN 19)...
+2021-01-09 16:14:02,683 - INFO - Getting stations in view along the track for GPS BIIR-13 (PRN 02) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 16:14:02,685 - INFO - Getting all positions for GPS BIIR-13 (PRN 02) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 16:14:10,784 - INFO - Positions calculated!
+2021-01-09 16:14:10,785 - INFO - Calculating stations in view for GPS BIIR-13 (PRN 02)...
+2021-01-09 16:17:52,535 - INFO - Getting stations in view along the track for GPS BIIRM-1 (PRN 17) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 16:17:52,535 - INFO - Getting all positions for GPS BIIRM-1 (PRN 17) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 16:18:00,703 - INFO - Positions calculated!
+2021-01-09 16:18:00,704 - INFO - Calculating stations in view for GPS BIIRM-1 (PRN 17)...
+2021-01-09 16:22:14,311 - INFO - Getting stations in view along the track for GPS BIIRM-2 (PRN 31) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 16:22:14,312 - INFO - Getting all positions for GPS BIIRM-2 (PRN 31) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 16:22:25,213 - INFO - Positions calculated!
+2021-01-09 16:22:25,213 - INFO - Calculating stations in view for GPS BIIRM-2 (PRN 31)...
+2021-01-09 16:25:46,609 - INFO - Getting stations in view along the track for GPS BIIRM-3 (PRN 12) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 16:25:46,609 - INFO - Getting all positions for GPS BIIRM-3 (PRN 12) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 16:25:54,226 - INFO - Positions calculated!
+2021-01-09 16:25:54,226 - INFO - Calculating stations in view for GPS BIIRM-3 (PRN 12)...
+2021-01-09 16:29:07,575 - INFO - Getting stations in view along the track for GPS BIIRM-4 (PRN 15) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 16:29:07,575 - INFO - Getting all positions for GPS BIIRM-4 (PRN 15) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 16:29:15,319 - INFO - Positions calculated!
+2021-01-09 16:29:15,319 - INFO - Calculating stations in view for GPS BIIRM-4 (PRN 15)...
+2021-01-09 16:32:49,961 - INFO - Getting stations in view along the track for GPS BIIRM-5 (PRN 29) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 16:32:49,962 - INFO - Getting all positions for GPS BIIRM-5 (PRN 29) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 16:32:58,786 - INFO - Positions calculated!
+2021-01-09 16:32:58,788 - INFO - Calculating stations in view for GPS BIIRM-5 (PRN 29)...
+2021-01-09 16:37:08,751 - INFO - Getting stations in view along the track for GPS BIIRM-6 (PRN 07) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 16:37:08,753 - INFO - Getting all positions for GPS BIIRM-6 (PRN 07) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 16:37:17,608 - INFO - Positions calculated!
+2021-01-09 16:37:17,609 - INFO - Calculating stations in view for GPS BIIRM-6 (PRN 07)...
+2021-01-09 16:41:37,459 - INFO - Getting stations in view along the track for GPS BIIRM-8 (PRN 05) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 16:41:37,462 - INFO - Getting all positions for GPS BIIRM-8 (PRN 05) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 16:41:46,871 - INFO - Positions calculated!
+2021-01-09 16:41:46,872 - INFO - Calculating stations in view for GPS BIIRM-8 (PRN 05)...
+2021-01-09 16:46:15,839 - INFO - Getting stations in view along the track for GPS BIIF-1  (PRN 25) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 16:46:15,840 - INFO - Getting all positions for GPS BIIF-1  (PRN 25) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 16:46:24,736 - INFO - Positions calculated!
+2021-01-09 16:46:24,736 - INFO - Calculating stations in view for GPS BIIF-1  (PRN 25)...
+2021-01-09 16:50:31,338 - INFO - Getting stations in view along the track for GPS BIIF-2  (PRN 01) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 16:50:31,339 - INFO - Getting all positions for GPS BIIF-2  (PRN 01) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 16:50:44,260 - INFO - Positions calculated!
+2021-01-09 16:50:44,261 - INFO - Calculating stations in view for GPS BIIF-2  (PRN 01)...
+2021-01-09 16:55:23,883 - INFO - Getting stations in view along the track for GPS BIIF-3  (PRN 24) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 16:55:23,886 - INFO - Getting all positions for GPS BIIF-3  (PRN 24) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 16:55:32,711 - INFO - Positions calculated!
+2021-01-09 16:55:32,711 - INFO - Calculating stations in view for GPS BIIF-3  (PRN 24)...
+2021-01-09 16:59:56,691 - INFO - Getting stations in view along the track for GPS BIIF-4  (PRN 27) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 16:59:56,691 - INFO - Getting all positions for GPS BIIF-4  (PRN 27) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 17:00:05,258 - INFO - Positions calculated!
+2021-01-09 17:00:05,258 - INFO - Calculating stations in view for GPS BIIF-4  (PRN 27)...
+2021-01-09 17:03:18,381 - INFO - Getting stations in view along the track for GPS BIIF-5  (PRN 30) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 17:03:18,381 - INFO - Getting all positions for GPS BIIF-5  (PRN 30) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 17:03:26,516 - INFO - Positions calculated!
+2021-01-09 17:03:26,517 - INFO - Calculating stations in view for GPS BIIF-5  (PRN 30)...
+2021-01-09 17:08:04,412 - INFO - Getting stations in view along the track for GPS BIIF-6  (PRN 06) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 17:08:04,419 - INFO - Getting all positions for GPS BIIF-6  (PRN 06) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 17:08:15,308 - INFO - Positions calculated!
+2021-01-09 17:08:15,310 - INFO - Calculating stations in view for GPS BIIF-6  (PRN 06)...
+2021-01-09 17:12:45,799 - INFO - Getting stations in view along the track for GPS BIIF-7  (PRN 09) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 17:12:45,801 - INFO - Getting all positions for GPS BIIF-7  (PRN 09) between 2021-01-08 00:00:00 and 2021-01-09 00:00:00
+2021-01-09 17:12:55,665 - INFO - Positions calculated!
+2021-01-09 17:12:55,668 - INFO - Calculating stations in view for GPS BIIF-7  (PRN 09)...

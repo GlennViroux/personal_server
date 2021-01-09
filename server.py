@@ -92,7 +92,6 @@ def send_email():
     send_mail(fromMail,fullName,msg)
     return jsonify({"message":"ok!"})
 
-
 @app.route('/data/<string:data_id>/<string:prn>',methods=["GET"])
 def get_data(data_id,prn):
     '''
