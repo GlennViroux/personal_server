@@ -1,4 +1,4 @@
-sendgrid.env
+.env
 downloads/
 output/
 tmp/

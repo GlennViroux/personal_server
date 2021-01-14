@@ -1,17 +1,22 @@
 
 import re
 import requests
-from datetime import date,datetime
+from datetime import date,datetime,timedelta
 
-from data_download import Celestrak,IGS
+from data_download import Celestrak,IGS,Nasa
 from geometry import Geometry
 from snippets import df2geojsonLineString,df2geojsonSatPoints,df2geojsonStationPoints,send_mail
 
-mail_from = "portfolioglennviroux@gmail.com"
-mail_for = "glenn.viroux@gmail.com"
-subject = "MySubject"
-text = "Hello darkness my old friend"
-
-send_mail(mail_for,mail_from,subject,text)
+'''
+start = datetime.strptime('2021/01/10',"%Y/%m/%d")
+end = datetime.now()
+diff = int((end-start)/timedelta(days=1))
+print(diff)
+dates = [(start+timedelta(days=i)).date() for i in range(diff)]
+for date in dates:
+    print(date)
+    Nasa.download_APOD(date)
+'''
+Nasa.get_APOD_dates()
 
 

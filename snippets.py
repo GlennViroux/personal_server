@@ -8,6 +8,9 @@ import geojson
 from pathlib import Path
 from datetime import datetime
 
+from dotenv import load_dotenv
+load_dotenv()
+
 def df2geojsonSatPoints(df:pd.DataFrame,basepath):
     '''
     Convert the df (with columns: epoch,lat,lon,number_stations_in_view and stations_in_view)
@@ -134,11 +137,27 @@ def send_mail(mail_from,name,text):
     )
 
     try:
-        print(os.environ.get('SENDGRID_API_KEY'))
-        sg = SendGridAPIClient(os.environ.get('SENDGRID_API_KEY'))
+        sg = SendGridAPIClient(os.getenv('SENDGRID_API_KEY'))
         response = sg.send(message)
-        print(response.status_code)
-        print(response.body)
-        print(response.headers)
+        print(response)
     except Exception as e:
         print(e)
+
+def get_apod(year,month,day,what):
+    '''
+    Get the apod for the provided date.
+    '''
+    if what=='json':
+        apod_json = None
+        json_file = Path(f"./downloads/NASA/{year}/{month}/{day}/{year}_{month}_{day}.json")
+        if json_file.exists():
+            with json_file.open('r') as f:
+                apod_json = json.load(f)
+        return apod_json
+
+    elif what=="image":
+        apod_image = f"./downloads/NASA/{year}/{month}/{day}/{year}_{month}_{day}.jpg"
+        if not Path(apod_image).exists():
+            return False
+        return apod_image
+

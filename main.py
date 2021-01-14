@@ -3,7 +3,7 @@ import argparse
 from pathlib import Path
 from datetime import datetime
 
-from data_download import Celestrak,IGS
+from data_download import Celestrak,IGS,Nasa
 from geometry import Geometry
 from conversions import GlonassInfo
 from snippets import df2geojsonLineString,df2geojsonSatPoints,df2geojsonStationPoints,df2timeseriesdata
@@ -13,6 +13,7 @@ if __name__=="__main__":
     parser.add_argument('-t','--download_tles',action="store_true",help="Activate this option in order to download the latest TLEs available on Celestrak.")
     parser.add_argument('-v','--download_csv',action="store_true",help="Activate this option in order to download the latest CSV files available on Celestrak.")
     parser.add_argument('-g','--download_glonass_info',action="store_true",help="Activate this option in order to download the latest CUS message from the Glonass website.")
+    parser.add_argument('-a','--download_apod',action='store_true',help="Activate this option in order to download the latest APOD.")
     parser.add_argument('-c','--calculate',action="store_true",help="Calculate data necessary for plotting.")
     parser.add_argument('-s','--start',help="Start date.")
     parser.add_argument('-e','--end',help="End date.")
@@ -29,6 +30,9 @@ if __name__=="__main__":
 
     if args.download_glonass_info:
         GlonassInfo.download_cus_message()
+
+    if args.download_apod:
+        Nasa.download_APOD()
 
     if args.calculate:
         start = datetime.strptime(args.start,"%Y/%m/%d-%H:%M:%S")

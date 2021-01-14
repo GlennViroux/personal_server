@@ -2,12 +2,13 @@ import flask
 import json
 import pandas as pd
 from pathlib import Path
-from flask import jsonify,request,abort
+from datetime import datetime,timedelta
+from flask import jsonify,request,abort,send_file
 from flask_cors import CORS
 
-from data_download import Celestrak,IGS
+from data_download import Celestrak,IGS,Nasa
 from conversions import norad2prn
-from snippets import send_mail
+from snippets import send_mail,get_apod
 
 app = flask.Flask(__name__)
 app.config["DEBUG"] = True
@@ -18,6 +19,10 @@ cors = CORS(app,resources={
         "origins":"333b001b0394.ngrok.io"
     }
 })
+
+@app.route('/servercheck',methods=["GET"])
+def check_server():
+    return jsonify({"message":"ok!"})
 
 @app.route('/prns',methods=["GET"])
 def get_prns():
@@ -117,6 +122,33 @@ def get_data(data_id,prn):
     with filepath.open("r") as f:
         data = json.load(f)
     return jsonify(data)
+
+@app.route('/apod/<string:data>',methods=["GET"])
+def get_APOD(data):
+    if data=="dates":
+        return jsonify(Nasa.get_APOD_dates())
+
+    args = request.args
+    year = args.get("year")
+    month = args.get("month").zfill(2)
+    day = args.get("day").zfill(2)
+    closest = args.get("closest") == "true"
+
+    prev_date = datetime(year=int(year),month=int(month),day=int(day))
+    result = get_apod(year,month,day,data)
+    if closest:
+        while not result:
+            new_date = prev_date - timedelta(days=1)
+            new_date_strs = datetime.strftime(new_date,"%Y/%m/%d").split('/')
+            result = get_apod(new_date_strs[0],new_date_strs[1],new_date_strs[2],data)
+
+    if not result:
+        abort(404,"That's an error. We didn't find the data you are looking for.")
+
+    if data=="json":
+        return jsonify(result)
+    elif data=="image":
+        return send_file(result)
 
 if __name__=="__main__":
     app.run()
