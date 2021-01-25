@@ -2,3 +2,5 @@
 downloads/
 output/
 tmp/
+logs/
+.DS_Store

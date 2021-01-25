@@ -1,4 +1,4 @@
-
+import os
 import argparse
 from pathlib import Path
 from datetime import datetime
@@ -10,6 +10,7 @@ from snippets import df2geojsonLineString,df2geojsonSatPoints,df2geojsonStationP
 
 if __name__=="__main__":
     parser = argparse.ArgumentParser()
+    parser.add_argument('-k','--clean_logs',action="store_true",help="Activate this option in order to remove the logs.")
     parser.add_argument('-t','--download_tles',action="store_true",help="Activate this option in order to download the latest TLEs available on Celestrak.")
     parser.add_argument('-v','--download_csv',action="store_true",help="Activate this option in order to download the latest CSV files available on Celestrak.")
     parser.add_argument('-g','--download_glonass_info',action="store_true",help="Activate this option in order to download the latest CUS message from the Glonass website.")
@@ -20,6 +21,9 @@ if __name__=="__main__":
     parser.add_argument('-n','--norad_ids',help="List of norad IDs. If not provided, results are calculated for all available spacecraft.")
 
     args = parser.parse_args()
+
+    if args.clean_logs:
+        os.system("rm ./logs/*")
 
     celestrak = Celestrak()
     if args.download_tles:
