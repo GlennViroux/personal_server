@@ -161,3 +161,17 @@ def get_apod(year,month,day,what):
             return False
         return apod_image
 
+def write_to_file(df:pd.DataFrame,filepath,filename):
+    '''
+    Write the dataframe to the given output file.
+    '''
+
+    filepath = Path(filepath)
+    filepath.mkdir(parents=True,exist_ok=True)
+
+    output = filepath / filename
+    write_header = True
+    if output.exists() and output.stat().st_size>0:
+        write_header = False
+
+    df.to_csv(output,header=write_header,mode='a',index=False)

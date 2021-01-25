@@ -1,6 +1,7 @@
 '''
 Positions manager class
 '''
+import os
 import pytz
 import math
 import pandas as pd
@@ -13,14 +14,14 @@ from skyfield.api import EarthSatellite,load
 #import matplotlib.pyplot as plt
 #from matplotlib.cm import get_cmap
 
-#from plotting import Plotting
+from plotting import Plotting
 from data_download import Celestrak,IGS
 from basics import SpaceVector
 from satplots_logging import get_logger
 from grid import Grid
 from projections import ecef2latlonheight,latlonheight2ecef
 from conversions import norad2prn
-from snippets import df2geojsonLineString,df2geojsonSatPoints,df2geojsonStationPoints,check_output
+from snippets import df2geojsonLineString,df2geojsonSatPoints,df2geojsonStationPoints,check_output,write_to_file
 
 
 EARTH_FLATTE_GRS80 = 1.0/298.257222101
@@ -34,6 +35,8 @@ class Geometry:
             raise Exception(f"Configuration file {config_file} does not exist, exiting.")
         self.config = configparser.ConfigParser()
         self.config.read(config_file)
+
+        self.use_cpp = self.config.getboolean('general','use_cpp')
 
         log_file = "./logs/geometry_log.txt"
         self.logger = get_logger(log_file)
@@ -224,20 +227,103 @@ class Geometry:
 
         basepath = Path("./output") / str(start.date().year) / str(start.date().month).zfill(2) / str(start.date().day).zfill(2)
         basepath.mkdir(parents=True,exist_ok=True)
+
+
         for norad_id in norad_ids:
             sat = norad2prn(norad_id)
             sat_points_check = check_output("sat_points",start.date(),sat)
             sat_track_check = check_output("sat_track",start.date(),sat)
             stations_check = check_output("stations",start.date())
 
-            if not sat or (sat_points_check and sat_track_check and stations_check):
+            if sat_points_check and sat_track_check and stations_check:
                 self.logger.info(f"Skipping norad id {norad_id} as results are already present.")
+                #continue
+            elif not sat:
+                self.logger.warning(f"Skipping norad id {norad_id}, norad2prn returned and error.")
                 continue
 
-            df = self.get_stations_in_view_sat_track(norad_id,start,end)
-            df2geojsonSatPoints(df,basepath / "sat_points")
-            df2geojsonLineString(df,basepath / "sat_track")
+            if self.use_cpp:
+                self.logger.info(f"Calculating all elevations for {norad_id}")
+                self.remove_cpp_tmp_files()
+                sat_pos_df = self.get_sat_positions(norad_id,start,end)
+                self.write_positions(start,end,norad_id,sat_pos_df)
+                self.launch_cpp()
+                cpp_df = pd.read_csv("./tmp/cpp_data_out.txt")
+                df = self.get_cpp_df(norad_id,sat_pos_df,cpp_df)
+                df2geojsonSatPoints(df,basepath / "sat_points")
+                df2geojsonLineString(df,basepath / "sat_track")
+                
+            else:
+                df = self.get_stations_in_view_sat_track(norad_id,start,end)
+                df2geojsonSatPoints(df,basepath / "sat_points")
+                df2geojsonLineString(df,basepath / "sat_track")
 
+    def remove_cpp_tmp_files(self):
+        tmp_file = Path("./tmp/cpp_data.txt")
+        if tmp_file.exists():
+            tmp_file.unlink()
+        tmp_file_output = Path("./tmp/cpp_data_out.txt")
+        if tmp_file_output.exists():
+            tmp_file_output.unlink()
+
+    def write_positions(self,start,end,norad_id,sat_pos_df):
+        '''
+        Write all station-sat positions in order to calculate the elevations using the C++ binary.
+        '''
+        epochs = sat_pos_df.epoch
+        pos_sat = sat_pos_df.pos
+        stations = self.igs_stations_df.Station
+        stat_pos_x = self.igs_stations_df.X
+        stat_pos_y = self.igs_stations_df.Y
+        stat_pos_z = self.igs_stations_df.Z
+
+        result = {'epoch':[],'station':[],'sat':[],'x_stat':[],'y_stat':[],'z_stat':[],'x_sat':[],'y_sat':[],'z_sat':[]}
+        for i in range(len(epochs)):
+            epoch = epochs[i]
+            sat_pos = pos_sat[i]
+            for j in range(len(stations)):
+                station = stations[j]
+                result['epoch'].append(epoch)
+                result['station'].append(station)
+                result['sat'].append(norad_id)
+                result['x_stat'].append(stat_pos_x[j])
+                result['y_stat'].append(stat_pos_y[j])
+                result['z_stat'].append(stat_pos_z[j])
+                result['x_sat'].append(sat_pos.x)
+                result['y_sat'].append(sat_pos.y)
+                result['z_sat'].append(sat_pos.z)
+        
+        df = pd.DataFrame.from_dict(result)
+
+        write_to_file(df,"./tmp","cpp_data.txt")
+
+    def launch_cpp(self):
+        self.logger.info("Launching C++...")
+        os.system("./cpp/main ./tmp/cpp_data.txt ./tmp/cpp_data_out.txt")
+        self.logger.info("C++ done!")
+
+    def get_cpp_df(self,norad_id,sat_pos_df:pd.DataFrame,cpp_df:pd.DataFrame):
+        elev_mask = float(self.config["general"]["elevation_mask"])        
+        epochs = sat_pos_df.epoch
+        stations_in_view = []
+        number_stations_in_view = []
+        norad_ids = []
+        prns = []
+        for i in range(len(epochs)):
+            epoch = str(epochs[i])
+            cpp_filtered = cpp_df[(cpp_df.epoch==epoch) & (cpp_df.sat==norad_id) & (cpp_df.elev>=elev_mask)]
+            stats = list(cpp_filtered.station)
+            prn = norad2prn(norad_id)
+
+            stations_in_view.append(stats)
+            number_stations_in_view.append(len(stats))
+            norad_ids.append(norad_id)
+            prns.append(prn)
+
+        new_df = pd.DataFrame(zip(number_stations_in_view,stations_in_view,norad_ids,prns),columns=["number_stations_in_view","stations_in_view","norad_id","prn"])
+        df = pd.concat([sat_pos_df,new_df],axis=1)
+        return df
+    
     '''
     def plot_elevations(self,sat_pos):
         df_elev = self.calculate_elevations(sat_pos)
@@ -274,6 +360,7 @@ class Geometry:
 
         fig.savefig('glenny.png')
     '''
+
     def calculate_elevations(self,sat_pos):
         self.logger.info("Calculating elevations...")
         grid,_,_ = Grid.get_plane_grid(number_of_points=self.grid_points,height=6371*1000)
