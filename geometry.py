@@ -9,11 +9,11 @@ import datetime
 import configparser
 from pathlib import Path
 from skyfield.api import EarthSatellite,load
-import cartopy.crs as ccrs
-import matplotlib.pyplot as plt
-from matplotlib.cm import get_cmap
+#import cartopy.crs as ccrs
+#import matplotlib.pyplot as plt
+#from matplotlib.cm import get_cmap
 
-from plotting import Plotting
+#from plotting import Plotting
 from data_download import Celestrak,IGS
 from basics import SpaceVector
 from satplots_logging import get_logger
@@ -238,6 +238,7 @@ class Geometry:
             df2geojsonSatPoints(df,basepath / "sat_points")
             df2geojsonLineString(df,basepath / "sat_track")
 
+    '''
     def plot_elevations(self,sat_pos):
         df_elev = self.calculate_elevations(sat_pos)
 
@@ -272,7 +273,7 @@ class Geometry:
         plt.colorbar(ax=ax,shrink=0.80)
 
         fig.savefig('glenny.png')
-
+    '''
     def calculate_elevations(self,sat_pos):
         self.logger.info("Calculating elevations...")
         grid,_,_ = Grid.get_plane_grid(number_of_points=self.grid_points,height=6371*1000)
