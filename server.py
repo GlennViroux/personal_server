@@ -138,9 +138,11 @@ def get_APOD(data):
     result = get_apod(year,month,day,data)
     if closest:
         while not result:
+            print(prev_date)
             new_date = prev_date - timedelta(days=1)
             new_date_strs = datetime.strftime(new_date,"%Y/%m/%d").split('/')
             result = get_apod(new_date_strs[0],new_date_strs[1],new_date_strs[2],data)
+            prev_date = new_date
 
     if not result:
         abort(404,"That's an error. We didn't find the data you are looking for.")
