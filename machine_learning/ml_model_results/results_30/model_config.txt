@@ -1,0 +1,12 @@
+-- CNN Configuration --
+Number of epochs              : 500                 
+Train test ratio              : 0.8                 
+Learning rate                 : 5e-05               
+Batch size                    : 32                  
+Sample length                 : 5                   
+Number of data series per sample: 4                   
+Number of mels                : 64                  
+Augment data                  : 0                   
+Noise factor                  : 0.001               
+Pitch factor                  : 0.8                 
+Speed factor                  : 0.8                 

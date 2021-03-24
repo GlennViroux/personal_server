@@ -1,4 +1,4 @@
-
+'''
 import re
 import requests
 from datetime import date,datetime,timedelta
@@ -6,8 +6,6 @@ from datetime import date,datetime,timedelta
 from data_download import Celestrak,IGS,Nasa
 from geometry import Geometry
 from snippets import df2geojsonLineString,df2geojsonSatPoints,df2geojsonStationPoints,send_mail
-
-'''
 start = datetime.strptime('2021/01/10',"%Y/%m/%d")
 end = datetime.now()
 diff = int((end-start)/timedelta(days=1))
@@ -17,7 +15,6 @@ for date in dates:
     print(date)
     Nasa.download_APOD(date)
 Nasa.get_APOD_dates()
-'''
 geom = Geometry()
 norad_id = "BEIDOU-3 M24 (C46),GSAT0202 (PRN E14)"
 start = "2021/01/25-00:00:00"
@@ -27,3 +24,21 @@ end_date = date(2021,1,16)
 geom.load_tles_celestrak(start_date,end_date)
 geom.load_IGS_stations()
 geom.calculate_all(start,end,norad_id)
+'''
+from music_classification import MusicConfig,MusicClassification
+import glob
+
+config_file = "./machine_learning/ml_model_results/results_35/model_config.txt"
+config = MusicConfig.read_config(config_file)
+mclas = MusicClassification(config)
+mclas.load_saved_model(35)
+
+sample = "./machine_learning/test_data/mambo_no_5-lou_bega.wav"
+mclas.predict(sample,number_of_tries=10)
+
+
+
+
+
+
+

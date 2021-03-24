@@ -1,5 +1,8 @@
+import io
 import flask
 import json
+import tempfile
+import subprocess
 import pandas as pd
 from pathlib import Path
 from datetime import datetime,timedelta
@@ -9,6 +12,8 @@ from flask_cors import CORS
 from data_download import Celestrak,IGS,Nasa
 from conversions import norad2prn
 from snippets import send_mail,get_apod
+from file_utils import get_temp_file
+from music_classification import MusicClassification,MusicConfig
 
 app = flask.Flask(__name__)
 app.config["DEBUG"] = True
@@ -16,9 +21,14 @@ CORS(app)
 
 cors = CORS(app,resources={
     "r/*":{
-        "origins":"333b001b0394.ngrok.io"
+        "origins":"*"
     }
 })
+
+config_file = "./machine_learning/ml_model_results/results_35/model_config.txt"
+config = MusicConfig.read_config(config_file)
+mclas = MusicClassification(config)
+mclas.load_saved_model(35)
 
 @app.route('/servercheck',methods=["GET"])
 def check_server():
@@ -138,7 +148,6 @@ def get_APOD(data):
     result = get_apod(year,month,day,data)
     if closest:
         while not result:
-            print(prev_date)
             new_date = prev_date - timedelta(days=1)
             new_date_strs = datetime.strftime(new_date,"%Y/%m/%d").split('/')
             result = get_apod(new_date_strs[0],new_date_strs[1],new_date_strs[2],data)
@@ -151,6 +160,31 @@ def get_APOD(data):
         return jsonify(result)
     elif data=="image":
         return send_file(result)
+
+@app.route('/audiosample',methods=["POST"])
+def classify_audio_sample():
+    webm_file = get_temp_file("webm")
+    wav_file = get_temp_file("wav")
+
+    with webm_file.open("bx") as f:
+        f.write(request.data)
+
+    subprocess.run(
+        ["./ffmpeg","-i",str(webm_file),"-vn",str(wav_file)],
+        stdout=subprocess.DEVNULL,
+        stderr=subprocess.STDOUT)
+
+    result = mclas.predict(wav_file,verbose=True)
+    if webm_file.exists():
+        webm_file.unlink()
+    if wav_file.exists():
+        wav_file.unlink()
+
+    if not result:
+        abort(404,"We couldn't make a prediction with the provided audio sample...")
+
+    return result
+
 
 if __name__=="__main__":
     app.run()

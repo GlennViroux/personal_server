@@ -175,3 +175,5 @@ def write_to_file(df:pd.DataFrame,filepath,filename):
         write_header = False
 
     df.to_csv(output,header=write_header,mode='a',index=False)
+
+

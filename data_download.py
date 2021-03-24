@@ -271,7 +271,6 @@ class Nasa:
         dates = []
         for _, _, files in os.walk(cls.ARCHIVE_PATH, topdown=False):
             for name in files:
-                #print("File: ",os.path.join(root, name))
                 dates.append("/".join(name.split(".")[0].split("_")))
         dates = list(set(dates))
 
