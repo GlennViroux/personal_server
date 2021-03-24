@@ -231,7 +231,7 @@ class MusicClassification:
         mel_spec_db = self.calculate_mel_spec(y,sr)
         librosa.display.specshow(mel_spec_db, sr=sr, x_axis='time', y_axis='mel')
         plt.colorbar(format='%+2.0f dB') 
-        plt.title(f"Mel spectogram {genre} {number}")
+        plt.title(f"Mel spectogram")
         plt.savefig(output)
         plt.clf()
         logging.info(f"Generated plot: {output}")
