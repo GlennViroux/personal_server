@@ -63,5 +63,6 @@
         "hashtable": "cpp",
         "__tree": "cpp",
         "map": "cpp"
-    }
+    },
+    "python.pythonPath": ".venv/bin/python"
 }

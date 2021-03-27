@@ -126,10 +126,10 @@ class MusicConfig:
 
 class MusicClassification:
     def __init__(self,config=None):
-        self.data_dir = Path("./drive/MyDrive/Machine_Learning/GZTAN")
-        self.plot_dir = Path("./drive/MyDrive/Machine_Learning/plots")
+        self.data_dir = Path("./machine_learning/GZTAN")
+        self.plot_dir = Path("./machine_learning/plots")
         self.plot_dir.mkdir(parents=True,exist_ok=True)
-        self.model_results_dir = Path("./machine_learning/ml_model_results")
+        self.model_results_dir = Path("./machine_learning/model_results")
         self.model_results_dir.mkdir(parents=True,exist_ok=True)
         self.model = None
         self.trained = False

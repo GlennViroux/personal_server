@@ -1,40 +1,24 @@
-'''
-import re
-import requests
-from datetime import date,datetime,timedelta
+from music_classification import MusicClassification,MusicConfig
 
-from data_download import Celestrak,IGS,Nasa
-from geometry import Geometry
-from snippets import df2geojsonLineString,df2geojsonSatPoints,df2geojsonStationPoints,send_mail
-start = datetime.strptime('2021/01/10',"%Y/%m/%d")
-end = datetime.now()
-diff = int((end-start)/timedelta(days=1))
-print(diff)
-dates = [(start+timedelta(days=i)).date() for i in range(diff)]
-for date in dates:
-    print(date)
-    Nasa.download_APOD(date)
-Nasa.get_APOD_dates()
-geom = Geometry()
-norad_id = "BEIDOU-3 M24 (C46),GSAT0202 (PRN E14)"
-start = "2021/01/25-00:00:00"
-end = "2021/01/26-00:10:00"
-start_date = date(2021,1,15)
-end_date = date(2021,1,16)
-geom.load_tles_celestrak(start_date,end_date)
-geom.load_IGS_stations()
-geom.calculate_all(start,end,norad_id)
-'''
-from music_classification import MusicConfig,MusicClassification
-import glob
+config = MusicConfig()
+config.train_test_ratio = 0.80
+config.number_of_epochs = 200
+config.learning_rate = 0.00005
+config.batch_size = 32
+config.sample_length = 4
+config.num_data_series_per_sample = 6
+config.n_mels = 64
+config.augment_data = False
+config.noise_factor = 0.001
+config.pitch_factor = 0.80
+config.speed_factor = 0.80
 
-config_file = "./machine_learning/ml_model_results/results_35/model_config.txt"
-config = MusicConfig.read_config(config_file)
+
 mclas = MusicClassification(config)
-mclas.load_saved_model(35)
-
-sample = "./machine_learning/test_data/mambo_no_5-lou_bega.wav"
-mclas.predict(sample,number_of_tries=10)
+mclas.load_data()
+mclas.init_model()
+mclas.train_model()
+mclas.save_results_training()
 
 
 

@@ -7,3 +7,6 @@ logs/
 __pycache__/
 .venv/
 ngrok
+machine_learning/GZTAN/
+machine_learning/plots/
+machine_learning/test_data/
