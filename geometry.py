@@ -14,7 +14,7 @@ from skyfield.api import EarthSatellite,load
 #import matplotlib.pyplot as plt
 #from matplotlib.cm import get_cmap
 
-from plotting import Plotting
+#from plotting import Plotting
 from data_download import Celestrak,IGS
 from basics import SpaceVector
 from satplots_logging import get_logger
@@ -237,7 +237,7 @@ class Geometry:
 
             if sat_points_check and sat_track_check and stations_check:
                 self.logger.info(f"Skipping norad id {norad_id} as results are already present.")
-                #continue
+                continue
             elif not sat:
                 self.logger.warning(f"Skipping norad id {norad_id}, norad2prn returned and error.")
                 continue

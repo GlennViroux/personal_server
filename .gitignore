@@ -10,3 +10,5 @@ ngrok
 machine_learning/GZTAN/
 machine_learning/plots/
 machine_learning/test_data/
+ffmpeg_temp_files/
+cpp/a.out

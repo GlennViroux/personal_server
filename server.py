@@ -3,6 +3,7 @@ import flask
 import json
 import tempfile
 import subprocess
+import time
 import pandas as pd
 from pathlib import Path
 from datetime import datetime,timedelta
@@ -16,7 +17,7 @@ from file_utils import get_temp_file
 from music_classification import MusicClassification,MusicConfig
 
 app = flask.Flask(__name__)
-app.config["DEBUG"] = True
+app.config["DEBUG"] = False
 CORS(app)
 
 cors = CORS(app,resources={
@@ -25,10 +26,14 @@ cors = CORS(app,resources={
     }
 })
 
-config_file = "./machine_learning/ml_model_results/results_35/model_config.txt"
-config = MusicConfig.read_config(config_file)
-mclas = MusicClassification(config)
-mclas.load_saved_model(35)
+@app.before_first_request
+def load_model_to_app():
+    config_file = "./machine_learning/model_results/results_36/model_config.txt"
+    config = MusicConfig.read_config(config_file)
+    mclas = MusicClassification(config)
+    mclas.load_saved_model(36)
+
+    app.mclas = mclas
 
 @app.route('/servercheck',methods=["GET"])
 def check_server():
@@ -163,27 +168,44 @@ def get_APOD(data):
 
 @app.route('/audiosample',methods=["POST"])
 def classify_audio_sample():
+    time1 = time.time()
     webm_file = get_temp_file("webm")
     wav_file = get_temp_file("wav")
 
+    time2 = time.time()
+    print(f"Getting temp files took {time2-time1} seconds")
     with webm_file.open("bx") as f:
         f.write(request.data)
+    time3 = time.time()
+    print(f"Writing webm file took {time3-time2} seconds")
 
     subprocess.run(
-        ["./ffmpeg","-i",str(webm_file),"-vn",str(wav_file)],
+        ["ffmpeg","-i",str(webm_file),"-vn",str(wav_file)],
         stdout=subprocess.DEVNULL,
         stderr=subprocess.STDOUT)
 
-    result = mclas.predict(wav_file,verbose=True)
+    time4 = time.time()
+    print(f"FFMPEG took {time4-time3} seconds")
+
+    result = app.mclas.predict(wav_file,verbose=True)
+    time5 = time.time()
+    print(f"Prediction took {time5-time4} seconds")
+
+    '''
     if webm_file.exists():
         webm_file.unlink()
     if wav_file.exists():
         wav_file.unlink()
+    '''
 
     if not result:
         abort(404,"We couldn't make a prediction with the provided audio sample...")
 
-    return result
+    time6 = time.time()
+    print(f"Unlinking took {time6-time5} seconds")
+    print(f"Total execution took {time6-time1} seconds")
+
+    return jsonify(result)
 
 
 if __name__=="__main__":

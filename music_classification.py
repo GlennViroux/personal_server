@@ -1,6 +1,7 @@
 import os
 import logging
 import librosa
+import time
 import librosa.display
 import numpy as np
 import tensorflow as tf
@@ -400,7 +401,10 @@ class MusicClassification:
             return None
 
         MAX_TRIES = 5
+        time1 = time.time()
         y,sr = librosa.load(sample)
+        time2 = time.time()
+        print(f"Loading librosa took {time2-time1} seconds")
         sample_length = len(y)/sr
 
         if not number_of_tries:
@@ -413,9 +417,7 @@ class MusicClassification:
             return None
 
         results = []
-
         for _ in range(number_of_tries):
-
             start = np.random.randint(0,len(y)-self.config.sample_length*sr)
             sample_to_predict = y[start:start+sr*self.config.sample_length]
 
@@ -425,7 +427,11 @@ class MusicClassification:
             to_predict = to_predict.reshape(to_predict.shape+(1,))
             to_predict = tf.convert_to_tensor(to_predict)
 
-            results.append(self.model.predict(to_predict)[0])
+            new_result = self.model.predict(to_predict) 
+            results.append(new_result[0])
+
+        time3 = time.time()
+        print(f"Predicting {number_of_tries} times took {time3-time2} seconds")
 
         if verbose:
             header = "{0:<17}".format("Genre")
