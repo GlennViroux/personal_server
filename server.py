@@ -1,13 +1,16 @@
 import io
+import os
 import flask
 import json
-import tempfile
-import subprocess
 import time
+import random
+import librosa
+import binascii
+import subprocess
 import pandas as pd
 from pathlib import Path
 from datetime import datetime,timedelta
-from flask import jsonify,request,abort,send_file
+from flask import jsonify,request,abort,send_file,url_for
 from flask_cors import CORS
 
 from data_download import Celestrak,IGS,Nasa
@@ -15,25 +18,25 @@ from conversions import norad2prn
 from snippets import send_mail,get_apod
 from file_utils import get_temp_file
 from music_classification import MusicClassification,MusicConfig
+from tasks import make_celery,load_cnn_model
+
+from celery.utils.log import get_task_logger
 
 app = flask.Flask(__name__)
-app.config["DEBUG"] = False
-CORS(app)
+app.config['DEBUG'] = True
+app.config['CELERY_BROKER_URL'] = 'redis://localhost:6379/0'
+app.config['result_backend'] = 'redis://localhost:6379/0'
 
+CORS(app)
 cors = CORS(app,resources={
     "r/*":{
         "origins":"*"
     }
 })
 
-@app.before_first_request
-def load_model_to_app():
-    config_file = "./machine_learning/model_results/results_36/model_config.txt"
-    config = MusicConfig.read_config(config_file)
-    mclas = MusicClassification(config)
-    mclas.load_saved_model(36)
-
-    app.mclas = mclas
+load_cnn_model(app,36)
+logger = get_task_logger(__name__)
+celery = make_celery(app)
 
 @app.route('/servercheck',methods=["GET"])
 def check_server():
@@ -168,44 +171,79 @@ def get_APOD(data):
 
 @app.route('/audiosample',methods=["POST"])
 def classify_audio_sample():
-    time1 = time.time()
     webm_file = get_temp_file("webm")
     wav_file = get_temp_file("wav")
 
-    time2 = time.time()
-    print(f"Getting temp files took {time2-time1} seconds")
     with webm_file.open("bx") as f:
         f.write(request.data)
-    time3 = time.time()
-    print(f"Writing webm file took {time3-time2} seconds")
 
+    task = classify_audio_sample.delay(str(webm_file),str(wav_file))
+    return jsonify({"Location":url_for("taskstatus",task_id=task.id)})
+
+@celery.task(bind=True)
+def classify_audio_sample(self,webm_file,wav_file):
+    webm_file = Path(webm_file)
+    wav_file = Path(wav_file)
+
+    logger.info("Going to run ffmpeg...")
+    self.update_state(state="PROGRESS",meta={"status":"Converting audio stream...","perc":10})
     subprocess.run(
-        ["ffmpeg","-i",str(webm_file),"-vn",str(wav_file)],
-        stdout=subprocess.DEVNULL,
-        stderr=subprocess.STDOUT)
+        ["./ffmpeg","-i",str(webm_file),"-vn",str(wav_file)],
+        stdin=subprocess.PIPE,
+        stdout=subprocess.PIPE,
+        stderr=subprocess.PIPE)
+    logger.info("Done with ffmpeg!")
 
-    time4 = time.time()
-    print(f"FFMPEG took {time4-time3} seconds")
+    self.update_state(state="PROGRESS",meta={"status":"Loading audio data...","perc":30})
+    logger.info("Loading librosa...")
+    y,sr = librosa.load(f"{os.getcwd()}/{wav_file}")
+    logger.info("Librosa done...")
 
-    result = app.mclas.predict(wav_file,verbose=True)
-    time5 = time.time()
-    print(f"Prediction took {time5-time4} seconds")
+    self.update_state(state="PROGESS",meta={"status":"Invoking CNN model...","perc":70})
+    logger.info("Predicting...")
+    result = app.mclas.predict(wav_file,y=y,sr=sr,verbose=True)
+    logger.info("Predicting done...")
 
-    '''
     if webm_file.exists():
         webm_file.unlink()
     if wav_file.exists():
         wav_file.unlink()
-    '''
 
     if not result:
-        abort(404,"We couldn't make a prediction with the provided audio sample...")
+        self.update_state(state="FAILURE",meta={"status":"We couldn't make a prediction with the provided audio sample..."})
 
-    time6 = time.time()
-    print(f"Unlinking took {time6-time5} seconds")
-    print(f"Total execution took {time6-time1} seconds")
+    self.update_state(state="SUCCESS",meta={"status":"Finished!","result":result})
 
-    return jsonify(result)
+    return result
+    
+@app.route('/status/<task_id>')
+def taskstatus(task_id):
+    task = classify_audio_sample.AsyncResult(task_id)
+    if task.state == 'PENDING':
+        # job did not start yet
+        response = {
+            'state': task.state,
+            'perc': 0,
+            'status': 'Transferring provided data...',
+        }
+    elif task.state != 'FAILURE':
+        response = {
+            'state': task.state,
+            'perc': task.info.get('perc',''),
+            'status': task.info.get('status', '')
+        }
+        if 'result' in task.info:
+            response['result'] = task.info['result']
+    else:
+        # something went wrong in the background job
+        response = {
+            'state': task.state,
+            'perc': 0,
+            'status': str(task.info),  # this is the exception raised
+        }
+    return jsonify(response)
+
+
 
 
 if __name__=="__main__":

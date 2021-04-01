@@ -1,7 +1,6 @@
 import os
 import logging
 import librosa
-import time
 import librosa.display
 import numpy as np
 import tensorflow as tf
@@ -390,7 +389,7 @@ class MusicClassification:
       self.model = models.load_model(saved_model)
       self.trained = True
 
-    def predict(self,sample,number_of_tries=None,verbose=False):
+    def predict(self,sample,y=None,sr=None,number_of_tries=None,verbose=False):
         '''
         Predict the genre of a provided sample.
         '''
@@ -401,16 +400,13 @@ class MusicClassification:
             return None
 
         MAX_TRIES = 5
-        time1 = time.time()
-        y,sr = librosa.load(sample)
-        time2 = time.time()
-        print(f"Loading librosa took {time2-time1} seconds")
+        if not sr:
+            y,sr = librosa.load(sample)
         sample_length = len(y)/sr
 
         if not number_of_tries:
             max_tries = int(sample_length/self.config.sample_length)
             number_of_tries = min(MAX_TRIES,max_tries)
-
 
         if sample_length<self.config.sample_length:
             logging.error(f"The provided sample does not have at least {self.config.sample_length} seconds of sound, rejected")
@@ -429,9 +425,6 @@ class MusicClassification:
 
             new_result = self.model.predict(to_predict) 
             results.append(new_result[0])
-
-        time3 = time.time()
-        print(f"Predicting {number_of_tries} times took {time3-time2} seconds")
 
         if verbose:
             header = "{0:<17}".format("Genre")
